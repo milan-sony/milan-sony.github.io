@@ -60,29 +60,6 @@ body{
     padding-bottom: 100px;
 }
 
-/* navbar */
-.navbar{
-    background-color: var(--white-color);
-}
-.navbar button{
-    border: none;
-}
-.nav-link{
-    color: var(--blue-color);
-    font-size: 16px;
-    font-weight: 300;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    font-family: var(--secondary-font);
-}
-.nav-link:hover{
-    color: var(--darkblue-color);
-    text-decoration: underline;
-}
-.hamburg-icon{
-    color: var(--darkblue-color);
-    font-size: 30px;
-}
 /* banner */
 .background-img{
     /* background: linear-gradient(rgba(34, 40, 49, 0.5), rgba(0, 0, 0, 0.5)),
@@ -112,6 +89,7 @@ body{
     margin: 0;
     font-family: var(--primary-font);
     font-size: 60px;
+    font-weight: 500;
     color: var(--darkblue-color);
     text-transform: capitalize;
     padding-bottom: 10px;
@@ -120,6 +98,7 @@ body{
     margin: 0;
     font-family: var(--primary-font);
     font-size: 30px;
+    font-weight: 500;
     color: var(--darkblue-color);
     text-transform: capitalize;
     letter-spacing: 6px;
@@ -129,9 +108,55 @@ body{
     margin: 0;
     font-family: var(--secondary-font);
     font-size: 18px;
+    font-weight: 500;
     letter-spacing: 2px;
     color: var(--darkblue-color);
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+}
+.resume-btn{
+    padding: 10px 20px;
+    background-color: var(--darkblue-color);
+    color: var(--white-color);
+    text-align: center;
+    text-transform: capitalize;
+    font-family: var(--primary-font);
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 12px;
+    transition-duration: 0.4s ease;
+    cursor: pointer;
+    margin-right: 20px;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+.resume-btn:hover{
+    background: none;
+    color: var(--darkblue-color);
+    border: 1px solid var(--darkblue-color);
+}
+.contact-btn{
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border: 1px solid var(--darkblue-color);
+    border-radius: 12px;
+    color: var(--darkblue-color);
+    text-align: center;
+    text-transform: capitalize;
+    font-family: var(--primary-font);
+    /* font-weight: 500; */
+    letter-spacing: 2px;
+    transition-duration: 0.4s ease;
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+.contact-btn:hover{
+    border: none;
+    color: var(--white-color);
+    background-color: var(--darkblue-color);
 }
 
 /* scroll down */
@@ -184,8 +209,6 @@ body{
     animation-direction: alternate;
     margin-top: -6px;
 }
-
-
 .mouse {
     height: 42px;
     width: 24px;
@@ -193,7 +216,6 @@ body{
     transform: none;
     border: 2px solid var(--blue-color);
 }
-
 .wheel {
     height: 5px;
     width: 2px;
@@ -207,13 +229,11 @@ body{
     -webkit-border-radius: 8px;
     border-radius: 8px;
 }
-
 .wheel {
     -webkit-animation: mouse-wheel 0.6s linear infinite;
     -moz-animation: mouse-wheel 0.6s linear infinite;
     animation: mouse-wheel 0.6s linear infinite;
 }
-
 @-webkit-keyframes mouse-wheel{
 0% {
     opacity: 1;
@@ -221,7 +241,6 @@ body{
     -ms-transform: translateY(0);
     transform: translateY(0);
 }
-
 100% {
     opacity: 0;
     -webkit-transform: translateY(6px);
@@ -250,7 +269,6 @@ body{
     75% { top: 2px;}
     100% { top: 1px;}
 }
-
 @-webkit-keyframes mouse-scroll {
     0%   { opacity: 0;}
     50%  { opacity: .5;}
@@ -449,7 +467,7 @@ body{
     padding-bottom: 20px;
 }
 .form-group input{
-    color: var(--white-color);
+    color: var(--darkblue-color);
     font-family: var(--primary-font);
     font-size: 16px;
 }
@@ -479,20 +497,103 @@ body{
     padding: 12px 50px;
     border-radius: 50px;
     border: none;
+    margin-bottom: 20px;
 }
 .send-btn:hover{
     color: var(--darkblue-color);
     background-color: var(--litewhite-color);
     cursor: pointer;
 }
-
 .contact-msg p{
     margin: 0;
     text-align: center;
     font-family: var(--secondary-font);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
+    color: var(--darkblue-color);
+    /* margin-bottom: 20px; */
+}
+
+/* footer */
+.account-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.account-icons a{
+    margin: 0 25px;
+    font-size: 20px;
+    color: var(--darkblue-color);
+    transition: all 0.3s linear;
+}
+.account-icons a:hover{
+    color: var(--blue-color);
+    transform: scale(1.5);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text1{
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-family: var(--primary-font);
+    color: var(--darkblue-color);
+}
+.footer-two{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-text2{
+    margin: 0;
+    display: flex;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: var(--darkblue-color);
+    font-family: var(--secondary-font);
+}
+
+/* heart beat animation */
+@keyframes heartbeat {
+    0%{
+    transform: scale(1);
+    color: red;
+    }
+    50%{
+    transform: scale(1.2);
+    color: red;
+    }
+    100%{
+    transform: scale(1);
+    color: red;
+    }
+}
+.footer-text2 p{
+    animation: heartbeat 1s infinite;
+}
+
+/* heart beat animation2 */
+@keyframes heartbeat2 {
+    0%{
+    transform: scale(1);
     color: var(--dark-color);
+    }
+    50%{
+    transform: scale(1.2);
+    color: var(--lite-color);
+    }
+    100%{
+    transform: scale(1);
+    color: var(--dark-color);
+    }
+}
+.loading-txt{
+    animation: heartbeat2 1s infinite;
 }
 
 /* div fade effect */
@@ -524,6 +625,10 @@ body{
     }
     .profile-img img{
         padding-top: 40px;
+    }
+    .footer-two{
+        display: flex;
+        justify-content: center;
     }
 }
 /* medium devices */

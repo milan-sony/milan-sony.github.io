@@ -20,26 +20,6 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <!-- navbar -->
-    <div class="container-fluid fixed-top fade-in-div">
-        <nav class="navbar navbar-expand-lg" data-aos="fade-in">
-            <div class="container">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="bi bi-list hamburg-icon"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                    <a class="nav-link" href="#about-section" data-aos="fade-in">About</a>
-                    <a class="nav-link" href="#skills-section" data-aos="fade-in">Skills</a>
-                    <a class="nav-link" href="#project-section" data-aos="fade-in">Project</a>
-                    <a class="nav-link" href="#contact-section" data-aos="fade-in">Contact</a>
-                    <a href="./assets/milansony_resume.pdf" class="nav-link" download="Resume_MilanSony" data-aos="fade-in">MyRésumé</a>
-                </div>
-            </div>
-            </div>
-        </nav>
-    </div>
     <!-- banner -->
     <div class="container-fluid background-img" id="banner-section">
         <div class="container banner-content fade-in-div">
@@ -49,6 +29,8 @@
                     <h3 class="banner-head2" data-aos="fade-in">I'm <span>Milan Sony</span></h3>
                     <h5 class="banner-head3" data-aos="fade-in">Aspiring developer</h5>
                     <p class="banner-head4" data-aos="fade-in">Everything you need to know about me is here</p>
+                    <a href="./assets/milansony_resume.pdf" class="resume-btn" download="Resume_MilanSony">My Résumé</a>
+                    <a href="#contact-section" class="contact-btn">Contact</a>
                 </div>
             </div>
             <div class="row fade-in-div">
@@ -203,7 +185,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h6 class="card-subtitle" data-aos="fade-in">Operating Systems</h6>
-                            <p class="card-text">Linux, Windows</p>
+                            <p class="card-text" data-aos="fade-in">Linux, Windows</p>
                         </div>
                     </div>
                 </div>
@@ -289,7 +271,7 @@
                             <h6 class="card-subtitle" data-aos="fade-in">MensturalMate</h6>
                             <p class="card-text" data-aos="fade-in">MensturalMate is a simple menu driven period calculator build in C language as part of my mini-project in MCA Semester one</p>
                             <p class="card-subtitles">
-                                <span class="badge badge-item data-aos="fade-in"">C</span> 
+                                <span class="badge badge-item" data-aos="fade-in">C</span> 
                             </p>
                             <div class="project-links">
                                 <a href="">&nbsp;</a>
@@ -299,7 +281,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 view-all-projects">
-                    <a href="https://github.com/milan-sony?tab=repositories"><span class="badge badge-pill"><i class="bi bi-github"></i> View all</span></a>
+                    <a href="https://github.com/milan-sony?tab=repositories" data-aos="fade-in"><span class="badge badge-pill"><i class="bi bi-github" data-aos="fade-in"></i> View all</span></a>
                 </div>
             </div>
         </div>
@@ -315,7 +297,7 @@
             </div>
             <div class="row ">
                 <div class="col-lg-6 col-md-6 contact-info">
-                    <p class="mail-tel-link" data-aos="fade-in">📧 Mail: <a href="mailto:milanfrom2001@gmail.com">milanfrom2001@gmail.com</a></p>
+                    <p class="mail-tel-link" data-aos="fade-in">📧 Mail: <a href="mailto:milanfrom2001@gmail.com">milansonyofficial@gmail.com</a></p>
                     <p class="mail-tel-link" data-aos="fade-in">📞 Phone: <a href="tel:+918075143465">+91 8075143465</a></p>
                     <p data-aos="fade-in">📍 Location: Changanacherry, Kottayam, Kerala, India</p>
                 </div>
@@ -346,6 +328,27 @@
         </div>
     </div>
 
+    <!-- footer -->
+    <div class="container-fluid">
+        <div class="container fade-in-div">
+            <div class="row" data-aos="fade-in">
+                <div class="col-lg-12 account-icons" data-aos="fade-in">
+                    <a href="https://www.instagram.com/milansony_/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://twitter.com/milansony_"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/milan-sony-94b977261/"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.facebook.com/milansonyms"><i class="bi bi-facebook"></i></a>
+                </div>
+                <div class="col-lg-12 footer" data-aos="fade-in">
+                    <p class="footer-text1">Yeah! that's all about me.</p>
+                    <p class="footer-text1">Thank you 🙏🏽 for reading all the way down. Have a nice <span id="today"></span></p>
+                </div>
+                <div class="col-lg-12 footer-two">
+                    <h3 class="footer-text2">Made with<p>&nbsp;<i class="bi bi-heart-fill"></i></p>&nbsp;Milan Sony</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- custom JS -->
     <script src="./script.js"></script>
 
@@ -365,7 +368,7 @@
 
     <!-- Navbar Collaps JQuery -->
     <script type="text/javascript">
-        $('.nav-link').click(function(){
+        $('.nav-items').click(function(){
     
             $('.navbar-collapse').collapse('hide');
     
