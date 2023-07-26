@@ -1,3 +1,9 @@
+// preloader
+window.onload=function(){
+    document.getElementById("loader").style.display="none";
+    document.getElementById("content").style.display="block";
+};
+
 // scroll to top btn
 let ScrollToTop = document.querySelector(".scroll-btn");
 window.addEventListener("scroll", () =>{

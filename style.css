@@ -35,6 +35,28 @@ body{
     background-color: var(--white-color);
 }
 
+/* preloader */
+#content{
+    display: none;
+}
+#loader{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#loader img{
+    height: 250px;
+    width: auto;
+}
+.loading-txt{
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    text-transform: lowercase;
+    font-weight: 500;
+}
+
 /* sections */
 #alert-msg{
     display: none;
