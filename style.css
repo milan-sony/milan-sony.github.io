@@ -1,8 +1,3 @@
-/* Smooth Scroll */
-html {
-    scroll-behavior: smooth;
-}
-
 :root {
     --black-color: #222831;
     --lite-black: #393E46;
@@ -61,23 +56,23 @@ body{
 #alert-msg{
     display: none;
 }
-#education-section{
+#education{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-#about-section{
+#about{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-#skills-section{
+#skills{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-#project-section{
+#project{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-#contact-section{
+#contact{
     padding-top: 100px;
     padding-bottom: 100px;
 }
