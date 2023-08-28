@@ -367,6 +367,11 @@ body{
 .profile-img img{
     height: 250px;
 }
+.talk-about-badge{
+    background-color: var(--lite-black);
+    color: var(--yellow-color);
+    margin-right: 4px;
+}
 
 /* education */
 .card{
