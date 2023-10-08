@@ -1,7 +1,8 @@
 :root {
-    --red-color: #D72323;
-    --white-color: #EEEEEE;
-    --black-color: #000000;
+    --white-color: #f5f5f5;
+    --black-color: #1b1c1e;
+    --liteblack-color: #303030;
+    --blue-color: #1c80e6;
 
     --primary-font: 'Playfair Display', serif;
     --secondary-font: 'Lato', sans-serif;
@@ -12,21 +13,21 @@
     width: 10px;
 }
 ::-webkit-scrollbar-track{
-    background: var(--red-color);
+    background: var(--white-color);
 }
 ::-webkit-scrollbar-thumb{
-    background: var(--white-color);
+    background: var(--blue-color);
     border-radius: 50px;
 }
 
 /* custom mouse select colour */
 ::selection {
-    background-color: var(--white-color);
-    color: var(--red-color);
+    background-color: var(--blue-color);
+    color: var(--white-color);
 }
 
 body{
-    background-color: var(--red-color);
+    background-color: var(--white-color);
 }
 
 /* preloader */
@@ -89,7 +90,7 @@ body{
     font-family: var(--primary-font);
     font-size: 120px;
     font-weight: 900;
-    color: var(--white-color);
+    color: var(--blue-color);
     text-transform: capitalize;
     padding-bottom: 20px;
 }
@@ -98,7 +99,7 @@ body{
     font-family: var(--primary-font);
     font-size: 60px;
     font-weight: 500;
-    color: var(--white-color);
+    color: var(--black-color);
     text-transform: capitalize;
     padding-bottom: 10px;
 }
@@ -107,7 +108,7 @@ body{
     font-family: var(--primary-font);
     font-size: 30px;
     font-weight: 500;
-    color: var(--white-color);
+    color: var(--black-color);
     text-transform: capitalize;
     letter-spacing: 6px;
     padding-bottom: 20px;
@@ -123,8 +124,8 @@ body{
 }
 .resume-btn{
     padding: 10px 20px;
-    background-color: var(--white-color);
-    color: var(--red-color);
+    background-color: var(--blue-color);
+    color: var(--white-color);
     text-align: center;
     text-transform: capitalize;
     font-family: var(--primary-font);
@@ -137,19 +138,20 @@ body{
     border: none;
     text-decoration: none;
     list-style-type: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .resume-btn:hover{
     background: none;
-    color: var(--white-color);
-    border: 1px solid var(--white-color);
+    color: var(--blue-color);
+    border: 1px solid var(--blue-color);
 }
 .contact-btn{
     padding: 10px 20px;
     outline: none;
     border: none;
-    border: 1px solid var(--white-color);
+    border: 1px solid var(--blue-color);
     border-radius: 12px;
-    color: var(--white-color);
+    color: var(--blue-color);
     text-align: center;
     text-transform: capitalize;
     font-family: var(--primary-font);
@@ -159,11 +161,12 @@ body{
     background: none;
     text-decoration: none;
     list-style-type: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .contact-btn:hover{
     border: none;
-    color: var(--red-color);
-    background-color: var(--white-color);
+    color: var(--white-color);
+    background-color: var(--blue-color);
 }
 
 /* scroll down */
@@ -311,14 +314,14 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    color: var(--red-color);
+    color: var(--blue-color);
     cursor: pointer;
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .scroll-btn:hover{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    background-color: var(--red-color);
+    background-color: var(--blue-color);
     color: var(--white-color);
 }
 
@@ -331,7 +334,7 @@ body{
     margin: 0;
     font-family: var(--primary-font);
     font-size: 60px;
-    color: var(--white-color);
+    color: var(--blue-color);
     padding-bottom: 40px;
 }
 
@@ -344,14 +347,15 @@ body{
     font-family: var(--primary-font);
     font-size: 24px;
     padding-bottom: 20px;
-    color: var(--white-color);
+    color: var(--black-color);
 }
 .sub-desc{
     font-family: var(--secondary-font);
     font-size: 16px;
     padding-bottom: 20px;
-    color: var(--white-color);
+    color: var(--liteblack-color);
 }
+
 .profile-img {
     display: flex;
     justify-content: center;
@@ -361,8 +365,8 @@ body{
     height: 250px;
 }
 .talk-about-badge{
-    background-color: rgba(238, 238, 238, 0.3);
-    color: var(--white-color);
+    background-color: #eeeeee;
+    color: var(--blue-color);
     margin-right: 4px;
 }
 
@@ -371,11 +375,10 @@ body{
     border-radius: 20px;
     border: none;
     margin-bottom: 20px;
-    background-color: var(--red-color);
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: var(--white-color);
 }
 .card:hover{
-    box-shadow: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .card-title, .card-subtitle, .card-text{
     margin: 0;
@@ -384,23 +387,23 @@ body{
 .card-title{
     font-family: var(--primary-font);
     font-size: 18px;
-    color: var(--white-color);
+    color: var(--black-color);
 }
 .card-subtitle{
     font-family: var(--primary-font);
     font-size: 24px;
-    color: var(--white-color);
+    color: var(--blue-color);
 }
 .card-text{
     font-family: var(--secondary-font);
     font-size: 16px;
-    color: var(--white-color);
+    color: var(--liteblack-color);
 }
 
 /* experience */
 .iedc-link{
-    text-decoration: underline;
-    color: var(--white-color);
+    color: var(--blue-color);
+    text-decoration: none;
 }
 .iedc-link:hover{
     color: var(--black-color);
@@ -409,8 +412,8 @@ body{
 
 /* projects */
 .badge-item{
-    background-color: var(--white-color);
-    color: var(--red-color);
+    background-color: var(--blue-color);
+    color: var(--white-color);
     font-family: var(--secondary-font);
     text-transform: uppercase;
 }
@@ -420,13 +423,13 @@ body{
 }
 .project-links a{
     text-decoration: none;
-    color: var(--white-color);
+    color: var(--blue-color);
     font-family: var(--primary-font);
     text-transform: capitalize;
     font-size: 16px;
 }
 .project-links a:hover{
-    color: var(--white-color);
+    color: var(--liteblack-color);
     text-decoration: underline;
 }
 .view-all-projects{
@@ -436,7 +439,7 @@ body{
 }
 .view-all-projects a span{
     background-color: var(--white-color);
-    color: var(--red-color);
+    color: var(--blue-color);
     border-radius: 50px;
     font-family: var(--primary-font);
     font-size: 16px;
@@ -446,9 +449,8 @@ body{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .view-all-projects a span:hover{
-    background: var(--red-color);
+    background: var(--blue-color);
     color: var(--white-color);
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 /* contact */
@@ -458,14 +460,14 @@ body{
     font-size: 16px; 
     font-family: var(--primary-font);
     font-weight: 500;
-    color: var(--white-color);
+    color: var(--black-color);
 }
 .mail-tel-link a{
     text-decoration: none;
-    color: var(--white-color);
+    color: var(--black-color);
 }
 .mail-tel-link a:hover{
-    color: var(--black-color);
+    color: var(--blue-color);
     text-decoration: underline;
 }
 .mail-text{
@@ -475,23 +477,22 @@ body{
     justify-content: center;
     font-size: 24px;
     font-family: var(--secondary-font);
-    color: var(--white-color);
+    color: var(--blue-color);
 }
 .form-control {
     border-radius: 10px;
     border: none;
-    background: var(--red-color);
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background: var(--blue-color);
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
 }
 .form-control:active, .form-control:focus {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: var(--red-color);
+    background: var(--blue-color);
     color: var(--white-color); 
     font-family: var(--primary-font);
     font-size: 16px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .form-group{
     margin: 0;
@@ -523,7 +524,7 @@ body{
     font-weight: 700;
     text-transform: capitalize;
     font-family: var(--primary-font);
-    color: var(--red-color);
+    color: var(--blue-color);
     background-color: var(--white-color);
     padding: 12px 50px;
     border-radius: 50px;
@@ -533,9 +534,8 @@ body{
 }
 .send-btn:hover{
     color: var(--white-color);
-    background-color: var(--red-color);
+    background-color: var(--blue-color);
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .contact-msg p{
     margin: 0;
@@ -543,7 +543,7 @@ body{
     font-family: var(--secondary-font);
     font-size: 18px;
     font-weight: 300;
-    color: var(--white-color) !important;
+    color: var(--blue-color) !important;
 }
 
 /* footer */
@@ -556,11 +556,11 @@ body{
 .account-icons a{
     margin: 0 25px;
     font-size: 20px;
-    color: var(--white-color);
+    color: var(--black-color);
     transition: all 0.3s linear;
 }
 .account-icons a:hover{
-    color: var(--white-color);
+    color: var(--blue-color);
     transform: scale(1.5);
 }
 .footer{
@@ -574,7 +574,7 @@ body{
     padding-bottom: 20px;
     font-size: 18px;
     font-family: var(--primary-font);
-    color: var(--white-color);
+    color: var(--liteblack-color);
 }
 .footer-two{
     display: flex;
@@ -586,7 +586,7 @@ body{
     margin: 0;
     padding-bottom: 20px;
     font-size: 16px;
-    color: var(--white-color);
+    color: var(--liteblack-color);
     font-family: var(--secondary-font);
 }
 
@@ -594,39 +594,21 @@ body{
 @keyframes heartbeat {
     0%{
     transform: scale(1);
-    color: var(--white-color);
+    color: red;
     }
     50%{
     transform: scale(1.2);
-    color: var(--white-color);
+    color: red;
     }
     100%{
     transform: scale(1);
-    color: var(--white-color);
+    color: red;
     }
 }
 .footer-text2 p{
     animation: heartbeat 1s infinite;
 }
 
-/* heart beat animation2 */
-@keyframes heartbeat2 {
-    0%{
-    transform: scale(1);
-    color: var(--dark-color);
-    }
-    50%{
-    transform: scale(1.2);
-    color: var(--lite-color);
-    }
-    100%{
-    transform: scale(1);
-    color: var(--dark-color);
-    }
-}
-.loading-txt{
-    animation: heartbeat2 1s infinite;
-}
 
 /* div fade effect */
 .fade-in-div { 
