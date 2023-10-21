@@ -640,6 +640,9 @@ body{
     .profile-img img{
         padding-top: 40px;
     }
+    .head-title{
+        font-size: 40px;
+    }
     .footer-two{
         display: flex;
         justify-content: center;
