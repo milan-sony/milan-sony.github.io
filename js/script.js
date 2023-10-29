@@ -30,3 +30,22 @@ window.addEventListener("blur", () =>{
 window.addEventListener("focus", () =>{
     document.title = docTitle;
 })
+
+function updateBackgroundColor() {
+    const currentTime = new Date();
+    const currentHour = currentTime.getHours();
+
+    if (currentHour >= 6 && currentHour < 18) {
+        // Daytime (6:00 AM to 6:00 PM)
+        document.getElementById('style-sheet').href = '../css/day.css';
+    } else {
+        // Nighttime (6:00 PM to 6:00 AM)
+        document.getElementById('style-sheet').href = '../css/night.css';
+    }
+}
+
+// Call the function when the page loads
+updateBackgroundColor();
+
+// Set an interval to update the background color every minute
+setInterval(updateBackgroundColor, 60000);
