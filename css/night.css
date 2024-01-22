@@ -108,7 +108,7 @@ body{
     font-family: var(--primary-font);
     font-size: 30px;
     font-weight: 500;
-    color: var(--black-color);
+    color: var(--blue-color);
     text-transform: capitalize;
     letter-spacing: 6px;
     padding-bottom: 20px;
@@ -119,7 +119,7 @@ body{
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 2px;
-    color: var(--white-color);
+    color: var(--liteblack-color);
     padding-bottom: 40px;
 }
 .resume-btn{
@@ -406,7 +406,7 @@ body{
     text-decoration: none;
 }
 .iedc-link:hover{
-    color: var(--black-color);
+    color: var(--blue-color);
     text-decoration: underline;
 }
 
@@ -464,7 +464,7 @@ body{
 }
 .mail-tel-link a{
     text-decoration: none;
-    color: var(--black-color);
+    color: var(--blue-color);
 }
 .mail-tel-link a:hover{
     color: var(--blue-color);
