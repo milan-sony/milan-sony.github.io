@@ -77,6 +77,14 @@ body{
     padding-bottom: 100px;
 }
 
+/* day and night */
+.day-night{
+    float: right;
+    color: var(--blue-color);
+    font-size: 40px;
+    cursor: pointer;
+}
+
 /* banner */
 .banner-content{
     width: 100%;
@@ -622,6 +630,9 @@ body{
 /* Custom Media Query */
 /* small devices */
 @media (max-width: 576px) {
+    .day-night{
+        font-size: 20px;
+    }
     .banner-head1{
         font-size: 40px;
     }
