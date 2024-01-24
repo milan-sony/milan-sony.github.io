@@ -1,7 +1,22 @@
-// preloader
 window.onload=function(){
+    // preloader
     document.getElementById("loader").style.display="none";
     document.getElementById("content").style.display="block";
+    // change css - day and night
+    icon = document.getElementById("day-night")
+    iconData = document.getElementById("day-night").innerText
+    const currentTime = new Date();
+    const currentHour = currentTime.getHours();
+
+    if (currentHour >= 6 && currentHour < 18) {
+        // Daytime (6:00 AM to 6:00 PM)
+        document.getElementById('style-sheet').href = '../css/day.css';
+        icon.innerHTML = "☀️";
+    } else {
+        // Nighttime (6:00 PM to 6:00 AM)
+        document.getElementById('style-sheet').href = '../css/night.css';
+        icon.innerHTML = "🌙";
+    }
 };
 
 function DayNight(){
@@ -43,26 +58,3 @@ window.addEventListener("blur", () =>{
 window.addEventListener("focus", () =>{
     document.title = docTitle;
 })
-
-function updateBackgroundColor() {
-    icon = document.getElementById("day-night")
-    iconData = document.getElementById("day-night").innerText
-    const currentTime = new Date();
-    const currentHour = currentTime.getHours();
-
-    if (currentHour >= 6 && currentHour < 18) {
-        // Daytime (6:00 AM to 6:00 PM)
-        document.getElementById('style-sheet').href = '../css/day.css';
-        icon.innerHTML = "☀️";
-    } else {
-        // Nighttime (6:00 PM to 6:00 AM)
-        document.getElementById('style-sheet').href = '../css/night.css';
-        icon.innerHTML = "🌙";
-    }
-}
-
-// Call the function when the page loads
-updateBackgroundColor();
-
-// Set an interval to update the background color every minute
-setInterval(updateBackgroundColor, 60000);
