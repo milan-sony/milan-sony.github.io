@@ -336,10 +336,9 @@ body{
     color: var(--blue-color);
     cursor: pointer;
     margin-bottom: 20px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    box-shadow: rgba(184, 47, 47, 0.15) 0px 5px 15px 0px;
 }
 .scroll-btn:hover{
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     background-color: var(--blue-color);
     color: var(--white-color);
 }
@@ -457,8 +456,8 @@ body{
     justify-content: center;
 }
 .view-all-projects a span{
-    background-color: var(--white-color);
-    color: var(--blue-color);
+    background-color: var(--blue-color);
+    color: var(--white-color);
     border-radius: 50px;
     font-family: var(--primary-font);
     font-size: 16px;
@@ -468,8 +467,8 @@ body{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .view-all-projects a span:hover{
-    background: var(--blue-color);
-    color: var(--white-color);
+    background: var(--white-color);
+    color: var(--blue-color);
 }
 
 /* contact */
@@ -543,8 +542,8 @@ body{
     font-weight: 700;
     text-transform: capitalize;
     font-family: var(--primary-font);
-    color: var(--blue-color);
-    background-color: var(--white-color);
+    color: var(--white-color);
+    background-color: var(--blue-color);
     padding: 12px 50px;
     border-radius: 50px;
     border: none;
@@ -552,8 +551,8 @@ body{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .send-btn:hover{
-    color: var(--white-color);
-    background-color: var(--blue-color);
+    color: var(--blue-color);
+    background-color: var(--white-color);
     cursor: pointer;
 }
 .contact-msg p{
