@@ -2,34 +2,18 @@ window.onload=function(){
     // preloader
     document.getElementById("loader").style.display="none";
     document.getElementById("content").style.display="block";
-    // change css - day and night
-    icon = document.getElementById("day-night")
-    iconData = document.getElementById("day-night").innerText
-    const currentTime = new Date();
-    const currentHour = currentTime.getHours();
-
-    if (currentHour >= 6 && currentHour < 18) {
-        // Daytime (6:00 AM to 6:00 PM)
-        document.getElementById('style-sheet').href = '../css/day.css';
-        icon.innerHTML = "☀️";
-    } else {
-        // Nighttime (6:00 PM to 6:00 AM)
-        document.getElementById('style-sheet').href = '../css/night.css';
-        icon.innerHTML = "🌙";
-    }
 };
 
 function DayNight(){
     icon = document.getElementById("day-night")
-    iconData = document.getElementById("day-night").innerText
-    if (iconData === "☀️"){
+
+    document.body.classList.toggle("dark-theme")
+    
+    if(document.body.classList.contains("dark-theme")){
         icon.innerHTML = "🌙";
-        document.getElementById('style-sheet').href = '../css/night.css';
     }else{
         icon.innerHTML = "☀️";
-        document.getElementById('style-sheet').href = '../css/day.css';
     }
-
 }
 
 // scroll to top btn
