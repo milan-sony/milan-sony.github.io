@@ -336,7 +336,7 @@ body{
     color: var(--blue-color);
     cursor: pointer;
     margin-bottom: 20px;
-    box-shadow: rgba(184, 47, 47, 0.15) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .scroll-btn:hover{
     background-color: var(--blue-color);
