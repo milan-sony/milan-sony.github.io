@@ -4,8 +4,8 @@
     --liteblack-color: #303030;
     --blue-color: #1c80e6;
 
-    --primary-font: 'Playfair Display', serif;
-    --secondary-font: 'Lato', sans-serif;
+    --primary-font: "Oswald", sans-serif;
+    --secondary-font: "Roboto", sans-serif;
 }
 
 /* dark theme */
@@ -15,8 +15,8 @@
     --liteblack-color: #FAF9F6 ;
     --blue-color: #1c80e6;
 
-    --primary-font: 'Playfair Display', serif;
-    --secondary-font: 'Lato', sans-serif;
+    --primary-font: "Oswald", sans-serif;
+    --secondary-font: "Roboto", sans-serif;
 }
 
 /* custom scrollbar */
