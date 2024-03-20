@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Milan Sony">
     <meta name="description" content="Milan Sony's personal website/portfolio">
-    <meta name="keywords" content="milan sony, milan-sony, milan_sony, Milan Sony, MilanSony, Milan_Sony, Milan-Sony, MILAN SONY, MILANSONY">
+    <meta name="keywords"
+        content="milan sony, milan-sony, milan_sony, Milan Sony, MilanSony, Milan_Sony, Milan-Sony, MILAN SONY, MILANSONY">
     <title>Milan Sony</title>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
     <!-- bootstrap CSS v5.2 bundle -->
     <link rel="stylesheet" href="./css/bootstrap.css">
     <!-- bootstrap CSS v5.2 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- bootstrap icon CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <!-- AOS CDN -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- custom CSS -->
     <link rel="stylesheet" id="style-sheet" type="text/css" href="./css/styles.css">
 </head>
+
 <body>
     <!-- preloader -->
     <div id="loader">
@@ -31,362 +37,460 @@
     </div>
 
     <div class="content" id="content">
-    <!-- banner -->
-    <div class="container-fluid background-img" id="banner-section">
-        <div class="container banner-content fade-in-div">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="day-night" id="day-night" onclick="DayNight()" title="Day/Night">☀️</p>
-                    <h1 class="banner-head1" data-aos="fade-in">👋🏼<span class="auto-type"></span></h1>
-                    <h3 class="banner-head2" data-aos="fade-in">I'm <span>Milan Sony</span></h3>
-                    <h5 class="banner-head3" data-aos="fade-in">Aspiring developer</h5>
-                    <p class="banner-head4" data-aos="fade-in"><s>Everything</s> you need to know about me is here.</p>
-                    <a href="./assets/milansony_resume.pdf" class="resume-btn" download="Resume_MilanSony">My Résumé</a>
-                    <a href="#contact" class="contact-btn">Contact</a>
+        <!-- banner -->
+        <div class="container-fluid background-img" id="banner-section">
+            <div class="container banner-content fade-in-div">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="day-night" id="day-night" onclick="DayNight()" title="Day/Night">☀️</p>
+                        <h1 class="banner-head1" data-aos="fade-in">👋🏼<span class="auto-type"></span></h1>
+                        <h3 class="banner-head2" data-aos="fade-in">I'm <span>Milan Sony</span></h3>
+                        <h5 class="banner-head3" data-aos="fade-in">Aspiring developer</h5>
+                        <p class="banner-head4" data-aos="fade-in"><s>Everything</s> you need to know about me is here
+                        </p>
+                        <a href="./assets/milansony_resume.pdf" class="resume-btn" download="Resume_MilanSony">My
+                            Résumé</a>
+                        <a href="#contact" class="contact-btn">Contact</a>
+                    </div>
                 </div>
-            </div>
-            <div class="row fade-in-div">
-                <div class="mouse_scroll">
-                    <div>
-                        <span class="m_scroll_arrows unu"></span>
-                        <span class="m_scroll_arrows doi"></span>
+                <div class="row fade-in-div">
+                    <div class="mouse_scroll">
+                        <div>
+                            <span class="m_scroll_arrows unu"></span>
+                            <span class="m_scroll_arrows doi"></span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- scoll to top -->
-    <div class="container-fluid">
-        <div class="row">
-        <div class="col-lg-12 scroll-to-top fixed-bottom">
-            <a href="#" class="scroll-btn" title="Scroll to top">
-            <i class="bi bi-arrow-up-short"></i>
-            </a>
+        <!-- scoll to top -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 scroll-to-top fixed-bottom">
+                    <a href="#" class="scroll-btn" title="Scroll to top">
+                        <i class="bi bi-arrow-up-short"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-        </div>
-    </div>
 
-    <!-- about -->
-    <div class="container-fluid">
-        <div class="container fade-in-div" id="about">
-            <div class="row">
-                <div class="col-lg-12 main-heading">
-                    <h1 class="head-title" data-aos="fade-in">🤷🏻‍♂️ Who am I?</h1>
+        <!-- about -->
+        <div class="container-fluid">
+            <div class="container fade-in-div" id="about">
+                <div class="row">
+                    <div class="col-lg-12 main-heading">
+                        <h1 class="head-title" data-aos="fade-in">🤷🏻‍♂️ Who am I ?</h1>
+                    </div>
                 </div>
-            </div>
-            <div class="row about-desc">
-                <div class="col=lg-12">
-                    <h3 class="desc" data-aos="fade-in">A boy 🧍🏻‍♂ who aspires to become a developer and make his dreams come true.</h3>
-                </div>
-                <div class="col-lg-4">
-                    <p class="sub-desc" data-aos="fade-in">🌎 I'm based in India</p>
-                    <p class="sub-desc" data-aos="fade-in">🌱 Currently on a self taught journey to become a full-stack developer</p>
-                    <p class="sub-desc" data-aos="fade-in">💡 Let's talk about <span class="badge rounded-pill talk-about-badge">#webdesign</span><span class="badge rounded-pill talk-about-badge">#webdevelopment</span><span class="badge rounded-pill talk-about-badge">#python</span><span class="badge rounded-pill talk-about-badge">#arduino</span><span class="badge rounded-pill talk-about-badge">#IOT</span></p>
-                    <p class="sub-desc" data-aos="fade-in">👨🏻‍🎓 Graduated Bachelor of Computer Applications (BCA)</p>
-                    <p class="sub-desc" data-aos="fade-in">📚 Pursuing Master of Computer Applications (MCA)</p>
-                </div>
-                <div class="col-lg-4">
-                    <p class="sub-desc" data-aos="fade-in">🎂 DOB: 27-02-2001</p>
-                    <p class="sub-desc" data-aos="fade-in">💬 Languages Known: Malayalam (Mother tongue), English, Hindi</p>
-                    <p class="sub-desc" data-aos="fade-in">📍 Location: Changanacherry, Kottayam, Kerala, India</p>
-                    <p class="sub-desc" data-aos="fade-in">And one more thing: <b>When I'm not in front of a computer screen. I'm probabily sleeping.</b></p>
-                </div>
-                <div class="col-lg-4 profile-img">
-                    <img class="img-fluid" src="./assets/profile-pic.png" alt="photo" data-aos="fade-in">
+                <div class="row about-desc">
+                    <div class="col=lg-12">
+                        <h3 class="desc" data-aos="fade-in">A boy 🧍🏻‍♂ who aspires to become a developer and make his
+                            dreams come true</h3>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="sub-desc" data-aos="fade-in">🌎 I'm based in India</p>
+                        <p class="sub-desc" data-aos="fade-in">🌱 Currently on a self taught journey to become a
+                            full-stack developer</p>
+                        <p class="sub-desc" data-aos="fade-in">💡 Let's talk about <span
+                                class="badge rounded-pill talk-about-badge">#webdesign</span><span
+                                class="badge rounded-pill talk-about-badge">#webdevelopment</span><span
+                                class="badge rounded-pill talk-about-badge">#python</span><span
+                                class="badge rounded-pill talk-about-badge">#Node.JS</span><span
+                                class="badge rounded-pill talk-about-badge">#Vue.JS</span><span
+                                class="badge rounded-pill talk-about-badge">#arduino</span><span
+                                class="badge rounded-pill talk-about-badge">#IOT</span></p>
+                        <p class="sub-desc" data-aos="fade-in">👨🏻‍🎓 Graduated Bachelor of Computer Applications (BCA)
+                        </p>
+                        <p class="sub-desc" data-aos="fade-in">📚 Pursuing Master of Computer Applications (MCA)</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="sub-desc" data-aos="fade-in">🎂 DOB: 27-02-2001</p>
+                        <p class="sub-desc" data-aos="fade-in">💬 Languages Known: Malayalam (Mother tongue), English,
+                            Hindi</p>
+                        <p class="sub-desc" data-aos="fade-in">📍 Location: Changanacherry, Kottayam, Kerala, India</p>
+                        <p class="sub-desc" data-aos="fade-in">And one more thing: <b>"When I'm not in front of a
+                                computer screen. I'm probabily sleeping 💤"</b></p>
+                    </div>
+                    <div class="col-lg-4 profile-img">
+                        <img class="img-fluid" src="./assets/profile-pic.png" alt="photo" data-aos="fade-in">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- education -->
-    <div class="container-fluid">
-        <div class="container fade-in-div"  id="education">
-            <div class="row">
-                <div class="col-lg-12 main-heading">
-                    <h1 class="head-title" data-aos="fade-in">🎒 Education</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title" data-aos="fade-in">2022-2024</h5>
-                            <h6 class="card-subtitle" data-aos="fade-in">👨🏻 Master of Computer Applications</h6>
-                            <p class="card-text" data-aos="fade-in">Kristu Jyoti College of Management & Technology, Chethipuzha (Mahatma Gandhi University)</p>
-                        </div>
+        <!-- education -->
+        <div class="container-fluid">
+            <div class="container fade-in-div" id="education">
+                <div class="row">
+                    <div class="col-lg-12 main-heading">
+                        <h1 class="head-title" data-aos="fade-in">🎒 Education</h1>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title" data-aos="fade-in">2019-2022</h5>
-                            <h6 class="card-subtitle" data-aos="fade-in">🧑🏻 Bachelor of Computer Applications</h6>
-                            <p class="card-text" data-aos="fade-in">Kristu Jyoti College of Management & Technology, Chethipuzha (Mahatma Gandhi University)</p>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" data-aos="fade-in">2022-2024</h5>
+                                <h6 class="card-subtitle" data-aos="fade-in">👨🏻 Master of Computer Applications</h6>
+                                <p class="card-text" data-aos="fade-in">Kristu Jyoti College of Management & Technology,
+                                    Chethipuzha (Mahatma Gandhi University)</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title" data-aos="fade-in">2017-2019</h5>
-                            <h6 class="card-subtitle" data-aos="fade-in">👦🏻 Higher Secondary</h6>
-                            <p class="card-text" data-aos="fade-in">St Berchman's Higher Secondary School, Changanacherry.</p>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" data-aos="fade-in">2019-2022</h5>
+                                <h6 class="card-subtitle" data-aos="fade-in">🧑🏻 Bachelor of Computer Applications</h6>
+                                <p class="card-text" data-aos="fade-in">Kristu Jyoti College of Management & Technology,
+                                    Chethipuzha (Mahatma Gandhi University)</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title" data-aos="fade-in">2016-2017</h5>
-                            <h6 class="card-subtitle" data-aos="fade-in">🧒🏻 High School</h6>
-                            <p class="card-text" data-aos="fade-in">Kristu Jyoti Higher Secondary School, Chethipuzha</p>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" data-aos="fade-in">2017-2019</h5>
+                                <h6 class="card-subtitle" data-aos="fade-in">👦🏻 Higher Secondary</h6>
+                                <p class="card-text" data-aos="fade-in">St Berchman's Higher Secondary School,
+                                    Changanacherry.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- skills -->
-    <div class="container-fluid">
-        <div class="container fade-in-div"  id="skills">
-            <div class="row">
-                <div class="col-lg-12 main-heading">
-                    <h1 class="head-title" data-aos="fade-in">⚙️ Skills</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-subtitle" data-aos="fade-in">🛠️ Programming Languages</h6>
-                            <p class="card-text" data-aos="fade-in">C, C++, Python, PHP, Java</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-subtitle" data-aos="fade-in">✨ Frontend</h6>
-                            <p class="card-text" data-aos="fade-in">HTML5, CSS3, JavaScript, Bootstrap</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-subtitle" data-aos="fade-in">🚀 Backend</h6>
-                            <p class="card-text" data-aos="fade-in">Django, Flask (Python)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-subtitle" data-aos="fade-in">🗃️ Databases</h6>
-                            <p class="card-text" data-aos="fade-in">MySQL, SQLite, MongoDB, Firebase</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-subtitle" data-aos="fade-in">💻 Operating Systems</h6>
-                            <p class="card-text" data-aos="fade-in">Linux, Windows</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-subtitle" data-aos="fade-in">🔩 Other</h6>
-                            <p class="card-text" data-aos="fade-in">Git, GitHub, WSL 2, Microsoft Office, Photoshop</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- experience -->
-    <div class="container-fluid">
-        <div class="container fade-in-div"  id="education">
-            <div class="row">
-                <div class="col-lg-12 main-heading">
-                    <h1 class="head-title" data-aos="fade-in">💼 Experience</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title" data-aos="fade-in">2023-Present</h5>
-                            <h6 class="card-subtitle" data-aos="fade-in">🤝🏻 Community Lead</h6>
-                            <p class="card-text" data-aos="fade-in">Working as a Community Lead at <a href="https://inovuslabs.org/" class="iedc-link">Inovus Labs-IEDE</a> KCMT</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- project -->
-    <div class="container-fluid">
-        <div class="container fade-in-div"  id="project">
-            <div class="row">
-                <div class="col-lg-12 main-heading">
-                    <h1 class="head-title" data-aos="fade-in">🧩 Projects</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-subtitle" data-aos="fade-in">Third Eye</h6>
-                            <p class="card-text" data-aos="fade-in">A simple, responsive photograpy website - build as part of learing HTML5, CSS3, Bootstrap.</p>
-                            <p class="card-subtitles">
-                                <span class="badge badge-item" data-aos="fade-in">HTML5</span> 
-                                <span class="badge badge-item" data-aos="fade-in">CSS3</span> 
-                                <span class="badge badge-item" data-aos="fade-in">Bootstrap</span>
-                            </p>
-                            <div class="project-links">
-                                <a href="https://milan-sony.github.io/third_eye/" data-aos="fade-in"><i class="bi bi-link-45deg" data-aos="fade-in"></i>live link</a>
-                                <a href="https://github.com/milan-sony/third_eye" data-aos="fade-in"><i class="bi bi-github" data-aos="fade-in"></i> view on github</a>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" data-aos="fade-in">2016-2017</h5>
+                                <h6 class="card-subtitle" data-aos="fade-in">🧒🏻 High School</h6>
+                                <p class="card-text" data-aos="fade-in">Kristu Jyoti Higher Secondary School,
+                                    Chethipuzha</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-subtitle" data-aos="fade-in">Calculator</h6>
-                            <p class="card-text" data-aos="fade-in">A simple calculator - build as part of learing JavaScript.</p>
-                            <p class="card-subtitles">
-                                <span class="badge badge-item" data-aos="fade-in">HTML5</span> 
-                                <span class="badge badge-item" data-aos="fade-in">CSS3</span> 
-                                <span class="badge badge-item" data-aos="fade-in">JavaScript</span>
-                            </p>
-                            <div class="project-links">
-                                <a href=""></i>&nbsp;</a>
-                                <a href="https://github.com/milan-sony/javascript-calculator" data-aos="fade-in"><i class="bi bi-github" data-aos="fade-in"></i> view on github</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-subtitle" data-aos="fade-in">Todo Application</h6>
-                            <p class="card-text" data-aos="fade-in">A todo application build with Django and MySQL.</p>
-                            <p class="card-subtitles">
-                                <span class="badge badge-item" data-aos="fade-in">HTML5</span> 
-                                <span class="badge badge-item" data-aos="fade-in">CSS3</span> 
-                                <span class="badge badge-item" data-aos="fade-in">Bootstrap</span>
-                                <span class="badge badge-item" data-aos="fade-in">JavaScript</span>
-                                <span class="badge badge-item" data-aos="fade-in">Python</span>
-                                <span class="badge badge-item" data-aos="fade-in">Django</span>
-                                <span class="badge badge-item" data-aos="fade-in">MySQL</span>
-                            </p>
-                            <div class="project-links">
-                                <a href="">&nbsp;</a>
-                                <a href="https://github.com/milan-sony/django-todoapp" data-aos="fade-in"><i class="bi bi-github" data-aos="fade-in"></i> view on github</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-subtitle" data-aos="fade-in">MensturalMate</h6>
-                            <p class="card-text" data-aos="fade-in">MensturalMate is a simple menu driven period calculator build in C language as part of my mini-project in MCA Semester One.</p>
-                            <p class="card-subtitles">
-                                <span class="badge badge-item" data-aos="fade-in">C</span> 
-                            </p>
-                            <div class="project-links">
-                                <a href="">&nbsp;</a>
-                                <a href="https://github.com/milan-sony/mensturalmate" data-aos="fade-in"><i class="bi bi-github" data-aos="fade-in"></i> view on github</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 view-all-projects">
-                    <a href="https://github.com/milan-sony?tab=repositories" data-aos="fade-in"><span class="badge badge-pill"><i class="bi bi-github" data-aos="fade-in"></i> View all</span></a>
-                </div>
             </div>
         </div>
-    </div>
 
-    <!-- contact -->
-    <div class="container-fluid">
-        <div class="container fade-in-div" id="contact">
-            <div class="row">
-                <div class="col-lg-12 main-heading">
-                    <h1 class="head-title" data-aos="fade-in">☎️ Contact</h1>
+        <!-- skills -->
+        <div class="container-fluid">
+            <div class="container fade-in-div" id="skills">
+                <div class="row">
+                    <div class="col-lg-12 main-heading">
+                        <h1 class="head-title" data-aos="fade-in">⚙️ Skills</h1>
+                    </div>
                 </div>
-            </div>
-            <div class="row ">
-                <div class="col-lg-6 col-md-6 contact-info">
-                    <p class="mail-tel-link" data-aos="fade-in">📧 Mail: <a href="mailto:milanfrom2001@gmail.com">milansonyofficial@gmail.com</a></p>
-                    <p class="mail-tel-link" data-aos="fade-in">📞 Phone: <a href="tel:+918075143465">+91 8075143465</a></p>
-                    <p data-aos="fade-in">📍 Location: Changanacherry, Kottayam, Kerala, India</p>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="contact-box">
-                        <h5 class="mail-text" data-aos="fade-in">Send me a message</h5>
-                        <!-- https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server#readme -->
-                        <form action="https://script.google.com/macros/s/AKfycbzbEbzI6rfM-PqFHzO05y_SmWejj-ZfB8OpjzOr9W3kwNp9kD1-G5c9lyN-4b1nBtpY/exec" method="post" class="gform" data-aos="fade-in">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name" name="name" id="name" required data-aos="fade-in" autocomplete="off">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle" data-aos="fade-in">🛠️ Programming Languages</h6>
+                                <p class="card-text" data-aos="fade-in"><b>C, Python, C++, PHP, Java</b></p>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="E-mail" name="email" id="email" required data-aos="fade-in" autocomplete="off">
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle" data-aos="fade-in">✨ Frontend</h6>
+                                <p class="card-text" data-aos="fade-in"><b>HTML5, CSS3, JavaScript, Bootstrap, Tailwind
+                                        CSS, Vue.JS</b></p>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Message" name="message" id="message" required data-aos="fade-in" autocomplete="off"></textarea>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle" data-aos="fade-in">🚀 Backend</h6>
+                                <p class="card-text" data-aos="fade-in"><b>Django & Flask (Python), Node.JS</b></p>
+                            </div>
                         </div>
-                        <div class="msg-send">
-                            <input type="submit" value="Send 🚀" class="send-btn" data-aos="fade-in">
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle" data-aos="fade-in">🗃️ Databases</h6>
+                                <p class="card-text" data-aos="fade-in"><b>MySQL, SQLite, MongoDB, Firebase</b></p>
+                            </div>
                         </div>
-                        <div style="display:none" class="thankyou_message contact-msg">
-                            <p>Thanks for the message 🤗. I will get back to you soon!</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle" data-aos="fade-in">💻 Operating Systems</h6>
+                                <p class="card-text" data-aos="fade-in"><b>Windows, Linux</b></p>
+                            </div>
                         </div>
-                        </form>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle" data-aos="fade-in">🔩 Other</h6>
+                                <p class="card-text" data-aos="fade-in"><b>Git, GitHub, WSL 2, Microsoft Office,
+                                        Photoshop<b></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- footer -->
-    <div class="container-fluid">
-        <div class="container fade-in-div">
-            <div class="row" data-aos="fade-in">
-                <div class="col-lg-12 account-icons" data-aos="fade-in">
-                    <a href="https://www.linkedin.com/in/milan-sony-94b977261/"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://github.com/milan-sony"><i class="bi bi-github"></i></a>
-                    <a href="https://www.instagram.com/milansony_/"><i class="bi bi-instagram"></i></a>
-                    <a href="https://twitter.com/milansony_"><i class="bi bi-twitter"></i></a>
-                    <a href="https://www.facebook.com/milansonyms"><i class="bi bi-facebook"></i></a>
+        <!-- experience -->
+        <div class="container-fluid">
+            <div class="container fade-in-div" id="education">
+                <div class="row">
+                    <div class="col-lg-12 main-heading">
+                        <h1 class="head-title" data-aos="fade-in">💼 Experience</h1>
+                    </div>
                 </div>
-                <div class="col-lg-12 footer" data-aos="fade-in">
-                    <p class="footer-text1">Yeah! that's all about me 🤗</p>
-                    <p class="footer-text1">Thank you 🙏🏻 for reading all the way down. Have a nice <span id="today"></span>.</p>
-                </div>
-                <div class="col-lg-12 footer-two">
-                    <h3 class="footer-text2">Made with<p>&nbsp;<i class="bi bi-heart-fill"></i></p>&nbsp;Milan Sony</h3>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" data-aos="fade-in">2023-2024</h5>
+                                <h6 class="card-subtitle" data-aos="fade-in">🤝🏻 Community Lead</h6>
+                                <p class="card-text" data-aos="fade-in">- <a href="https://inovuslabs.org/"
+                                        class="iedc-link">Inovus Labs IEDC</a></p>
+                                <p class="card-sub-text" data-aos="fade-in">A community lead is responsible for
+                                    coordinating strategies and initiatives, setting and implementing community
+                                    objectives, and guiding junior team members</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" data-aos="fade-in">2024-Present</h5>
+                                <h6 class="card-subtitle" data-aos="fade-in">🙋🏻‍♂️ Mentor</h6>
+                                <p class="card-text" data-aos="fade-in">- <a href="https://inovuslabs.org/"
+                                        class="iedc-link">Inovus Labs IEDC</a></p>
+                                <p class="card-sub-text" data-aos="fade-in">A mentor can be a resource and support for a
+                                    mentee to help them achieve their goals and also maintain a healthy relationship
+                                    with all the community members and should keep a good touch with them periodically
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- project -->
+        <div class="container-fluid">
+            <div class="container fade-in-div" id="project">
+                <div class="row">
+                    <div class="col-lg-12 main-heading">
+                        <h1 class="head-title" data-aos="fade-in">🧩 Projects</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle" data-aos="fade-in">E-commerce Application</h6>
+                                <p class="card-sub-text" data-aos="fade-in">An E-Commerce Application build with Node.js,
+                                    Express.js, Handlebars, AJAX and MongoDB</p>
+                                <p class="card-subtitles">
+                                    <span class="badge badge-item" data-aos="fade-in">Node.JS</span>
+                                    <span class="badge badge-item" data-aos="fade-in">Express.JS</span>
+                                    <span class="badge badge-item" data-aos="fade-in">Handlebars</span>
+                                    <span class="badge badge-item" data-aos="fade-in">MongoDB</span>
+                                </p>
+                                <div class="project-links">
+                                    <a href=""></i>&nbsp;</a>
+                                    <a href="https://github.com/milan-sony/e-commerce_application" data-aos="fade-in"><i
+                                            class="bi bi-github" data-aos="fade-in"></i> view on github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle" data-aos="fade-in">Todo Application</h6>
+                                <p class="card-sub-text" data-aos="fade-in">A todo application build with Django and MySQL
+                                </p>
+                                <p class="card-subtitles">
+                                    <span class="badge badge-item" data-aos="fade-in">HTML5</span>
+                                    <span class="badge badge-item" data-aos="fade-in">CSS3</span>
+                                    <span class="badge badge-item" data-aos="fade-in">Bootstrap</span>
+                                    <span class="badge badge-item" data-aos="fade-in">JavaScript</span>
+                                    <span class="badge badge-item" data-aos="fade-in">Python</span>
+                                    <span class="badge badge-item" data-aos="fade-in">Django</span>
+                                    <span class="badge badge-item" data-aos="fade-in">MySQL</span>
+                                </p>
+                                <div class="project-links">
+                                    <a href="">&nbsp;</a>
+                                    <a href="https://github.com/milan-sony/django-todoapp" data-aos="fade-in"><i
+                                            class="bi bi-github" data-aos="fade-in"></i> view on github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle" data-aos="fade-in">Third Eye</h6>
+                                <p class="card-sub-text" data-aos="fade-in">A simple, responsive photograpy website - build
+                                    as part of learing HTML5, CSS3, Bootstrap</p>
+                                <p class="card-subtitles">
+                                    <span class="badge badge-item" data-aos="fade-in">HTML5</span>
+                                    <span class="badge badge-item" data-aos="fade-in">CSS3</span>
+                                    <span class="badge badge-item" data-aos="fade-in">Bootstrap</span>
+                                </p>
+                                <div class="project-links">
+                                    <a href="https://milan-sony.github.io/third_eye/" data-aos="fade-in"><i
+                                            class="bi bi-link-45deg" data-aos="fade-in"></i>live link</a>
+                                    <a href="https://github.com/milan-sony/third_eye" data-aos="fade-in"><i
+                                            class="bi bi-github" data-aos="fade-in"></i> view on github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle" data-aos="fade-in">Calculator</h6>
+                                <p class="card-sub-text" data-aos="fade-in">A simple calculator - build as part of learing
+                                    JavaScript</p>
+                                <p class="card-subtitles">
+                                    <span class="badge badge-item" data-aos="fade-in">HTML5</span>
+                                    <span class="badge badge-item" data-aos="fade-in">CSS3</span>
+                                    <span class="badge badge-item" data-aos="fade-in">JavaScript</span>
+                                </p>
+                                <div class="project-links">
+                                    <a href=""></i>&nbsp;</a>
+                                    <a href="https://github.com/milan-sony/javascript-calculator" data-aos="fade-in"><i
+                                            class="bi bi-github" data-aos="fade-in"></i> view on github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle" data-aos="fade-in">MensturalMate</h6>
+                                <p class="card-sub-text" data-aos="fade-in">MensturalMate is a simple menu driven period
+                                    calculator build in C language as part of my mini-project in MCA Semester One</p>
+                                <p class="card-subtitles">
+                                    <span class="badge badge-item" data-aos="fade-in">C</span>
+                                </p>
+                                <div class="project-links">
+                                    <a href="">&nbsp;</a>
+                                    <a href="https://github.com/milan-sony/mensturalmate" data-aos="fade-in"><i
+                                            class="bi bi-github" data-aos="fade-in"></i> view on github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 view-all-projects">
+                        <a href="https://github.com/milan-sony?tab=repositories" data-aos="fade-in"><span
+                                class="badge badge-pill"><i class="bi bi-github" data-aos="fade-in"></i>&nbsp;&nbsp;View
+                                all</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div class="container-fluid">
+            <div class="container fade-in-div" id="contact">
+                <div class="row">
+                    <div class="col-lg-12 main-heading">
+                        <h1 class="head-title" data-aos="fade-in">☎️ Contact</h1>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-lg-6 col-md-6 contact-info">
+                        <p class="mail-tel-link" data-aos="fade-in">📧 Mail: <a
+                                href="mailto:milanfrom2001@gmail.com">milansonyofficial@gmail.com</a></p>
+                        <p class="mail-tel-link" data-aos="fade-in">📞 Phone: <a href="tel:+918075143465">+91
+                                8075143465</a></p>
+                        <p data-aos="fade-in">📍 Location: Changanacherry, Kottayam, Kerala, India</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="contact-box">
+                            <h5 class="mail-text" data-aos="fade-in">Send me a message</h5>
+                            <!-- https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server#readme -->
+                            <form
+                                action="https://script.google.com/macros/s/AKfycbzbEbzI6rfM-PqFHzO05y_SmWejj-ZfB8OpjzOr9W3kwNp9kD1-G5c9lyN-4b1nBtpY/exec"
+                                method="post" class="gform" data-aos="fade-in">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" name="name" id="name"
+                                        required data-aos="fade-in" autocomplete="off">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="E-mail" name="email"
+                                        id="email" required data-aos="fade-in" autocomplete="off">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Message" name="message" id="message"
+                                        required data-aos="fade-in" autocomplete="off"></textarea>
+                                </div>
+                                <div class="msg-send">
+                                    <input type="submit" value="Send 🚀" class="send-btn" data-aos="fade-in">
+                                </div>
+                                <div style="display:none" class="thankyou_message contact-msg">
+                                    <p>Thanks for the message 🤗. I will get back to you soon!</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- buy me a coffee -->
+        <div class="container-fluid">
+            <div class="container fade-in-div">
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <h1 class="buy-me-a-coffee" data-aos="fade-in">☕ Wanna share a coffee with me ?</h1>
+                    </div>
+                </div>
+                <div class="row" data-aos="fade-in">
+                    <div class="col-lg-12 pb-5 d-flex justify-content-center" data-aos="fade-in">
+                        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+                            data-name="bmc-button" data-slug="milansony" data-color="#FFDD00" data-emoji=""
+                            data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000"
+                            data-font-color="#000000" data-coffee-color="#ffffff">
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="container-fluid">
+            <div class="container fade-in-div">
+                <div class="row" data-aos="fade-in">
+                    <div class="col-lg-12 account-icons" data-aos="fade-in">
+                        <a href="https://www.linkedin.com/in/milan-sony-94b977261/"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/milan-sony"><i class="bi bi-github"></i></a>
+                        <a href="https://www.instagram.com/milansony_/"><i class="bi bi-instagram"></i></a>
+                        <a href="https://twitter.com/milansony_"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.facebook.com/milansonyms"><i class="bi bi-facebook"></i></a>
+                    </div>
+                    <div class="col-lg-12 footer" data-aos="fade-in">
+                        <p class="footer-text1">Yeah! that's all about me 🤗</p>
+                        <p class="footer-text1">Thank you 🙏🏻 for reading all the way down. Have a nice <span
+                                id="today"></span></p>
+                    </div>
+                    <div class="col-lg-12 footer-two">
+                        <h3 class="footer-text2">Made with<p>&nbsp;<i class="bi bi-heart-fill"></i></p>&nbsp;Milan Sony
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- custom JS -->
     <script src="./js/script.js"></script>
-    
+
     <!-- form submission -->
     <script data-cfasync="false" type="text/javascript" src="./js/form-submission-handler.js"></script>
-    
+
     <!-- AOS -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
@@ -396,13 +500,13 @@
             easing: 'ease-in-out',
             once: false,
         });
-        </script>
+    </script>
 
     <!-- auto typed text -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed(".auto-type",{
-            strings: ["Hello","ഹലോ","नमस्ते","வணக்கம்","హలో","ನಮಸ್ಕಾರ","مرحبًا","Hola","Bonjour","Hallo","こんにちは","안녕하세요"],
+        var typed = new Typed(".auto-type", {
+            strings: ["Hello", "ഹലോ", "नमस्ते", "வணக்கம்", "హలో", "ನಮಸ್ಕಾರ", "مرحبًا", "Hola", "Bonjour", "Hallo", "こんにちは", "안녕하세요"],
             typeSpeed: 150,
             backSpeed: 150,
             loop: true
@@ -413,6 +517,9 @@
     <script src="./js/bootstrap.js"></script>
 
     <!-- bootstrap JS v5.2 CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
