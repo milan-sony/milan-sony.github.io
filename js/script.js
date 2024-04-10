@@ -4,18 +4,6 @@ window.onload = function () {
     document.getElementById("content").style.display = "block";
 };
 
-function DayNight() {
-    icon = document.getElementById("day-night")
-
-    document.body.classList.toggle("dark-theme")
-
-    if (document.body.classList.contains("dark-theme")) {
-        icon.innerHTML = "🌙";
-    } else {
-        icon.innerHTML = "☀️";
-    }
-}
-
 // scroll to top btn
 let ScrollToTop = document.querySelector(".scroll-btn");
 window.addEventListener("scroll", () => {
