@@ -1,8 +1,13 @@
 :root {
-    --yellow-color: #F4CE14;
+    /* --yellow-color: #F4CE14;
     --white-color: #F5F7F8;
     --litegreen-color: #495E57;
-    --black-color: #45474B;
+    --black-color: #45474B; */
+
+    --red-color: #FD2E35;
+    --white-color: #F5EDED;
+    --lightwhite-color: #DFE2DB;
+    --black-color: #000000;
 
     --primary-font: "Oswald", sans-serif;
     --secondary-font: "Roboto", sans-serif;
@@ -40,7 +45,7 @@
 }
 
 body {
-    background-color: var(--yellow-color);
+    background-color: var(--black-color);
 }
 
 /* preloader */
@@ -101,8 +106,6 @@ body {
 /* day and night */
 .day-night {
     float: right;
-    color: var(--black-color);
-    font-size: 40px;
     cursor: pointer;
 }
 .sun-icon{
@@ -117,6 +120,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .banner-head1 {
@@ -124,9 +129,13 @@ body {
     font-family: var(--primary-font);
     font-size: 120px;
     font-weight: 900;
-    color: var(--black-color);
+    color: var(--white-color);
     text-transform: capitalize;
     padding-bottom: 20px;
+}
+
+.my-name{
+    color: var(--red-color);
 }
 
 .banner-head2 {
@@ -134,7 +143,7 @@ body {
     font-family: var(--primary-font);
     font-size: 60px;
     font-weight: 500;
-    color: var(--black-color);
+    color: var(--white-color);
     text-transform: capitalize;
     padding-bottom: 10px;
 }
@@ -144,7 +153,7 @@ body {
     font-family: var(--primary-font);
     font-size: 30px;
     font-weight: 500;
-    color: var(--litegreen-color);
+    color: var(--white-color);
     text-transform: capitalize;
     letter-spacing: 6px;
     padding-bottom: 20px;
@@ -156,14 +165,14 @@ body {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 2px;
-    color: var(--litegreen-color);
+    color: var(--white-color);
     padding-bottom: 40px;
 }
 
 .resume-btn {
     padding: 10px 20px;
-    background-color: var(--black-color);
-    color: var(--yellow-color);
+    background-color: var(--red-color);
+    color: var(--white-color);
     text-align: center;
     text-transform: capitalize;
     font-family: var(--primary-font);
@@ -181,17 +190,17 @@ body {
 
 .resume-btn:hover {
     background: none;
-    color: var(--black-color);
-    border: 1px solid var(--black-color);
+    color: var(--white-color);
+    border: 1px solid var(--red-color);
 }
 
 .contact-btn {
     padding: 10px 20px;
     outline: none;
     border: none;
-    border: 1px solid var(--black-color);
+    border: 1px solid var(--red-color);
     border-radius: 12px;
-    color: var(--black-color);
+    color: var(--white-color);
     text-align: center;
     text-transform: capitalize;
     font-family: var(--primary-font);
@@ -206,8 +215,8 @@ body {
 
 .contact-btn:hover {
     border: none;
-    color: var(--yellow-color);
-    background-color: var(--black-color);
+    color: var(--white-color);
+    background-color: var(--red-color);
 }
 
 /* scroll btn */
@@ -217,7 +226,7 @@ body {
 }
 
 .scroll-btn {
-    background-color: var(--yellow-color);
+    background-color: var(--red-color);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -225,15 +234,15 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    color: var(--black-color);
+    color: var(--white-color);
     cursor: pointer;
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .scroll-btn:hover {
-    background-color: var(--black-color);
-    color: var(--yellow-color);
+    background-color: var(--white-color);
+    color: var(--red-color);
 }
 
 /* heading */
@@ -246,7 +255,7 @@ body {
     margin: 0;
     font-family: var(--primary-font);
     font-size: 60px;
-    color: var(--black-color);
+    color: var(--red-color);
     padding-bottom: 40px;
 }
 
@@ -260,14 +269,14 @@ body {
     font-family: var(--primary-font);
     font-size: 24px;
     padding-bottom: 20px;
-    color: var(--black-color);
+    color: var(--white-color);
 }
 
 .sub-desc {
     font-family: var(--secondary-font);
     font-size: 16px;
     padding-bottom: 20px;
-    color: var(--litegreen-color);
+    color: var(--white-color);
 }
 
 .profile-img {
@@ -282,7 +291,7 @@ body {
 
 .talk-about-badge {
     background-color: var(--black-color);
-    color: var(--yellow-color);
+    color: var(--red-color);
     margin-right: 4px;
     font-family: var(--secondary-font);
 }
@@ -292,7 +301,7 @@ body {
     border-radius: 20px;
     border: none;
     margin-bottom: 20px;
-    background-color: var(--yellow-color);
+    background-color: var(--black-color);
 }
 
 .card:hover {
@@ -315,37 +324,37 @@ body {
 .card-subtitle {
     font-family: var(--primary-font);
     font-size: 24px;
-    color: var(--black-color);
+    color: var(--red-color);
 }
 
 .card-text {
     font-family: var(--secondary-font);
     font-size: 16px;
-    color: var(--litegreen-color);
+    color: var(--white-color);
 }
 
 .card-sub-text {
     font-weight: 500;
     font-family: var(--secondary-font);
     font-size: 16px;
-    color: var(--litegreen-color);
+    color: var(--white-color);
 }
 
 /* experience */
 .iedc-link {
-    color: var(--black-color);
+    color: var(--red-color);
     text-decoration: none;
 }
 
 .iedc-link:hover {
-    color: var(--black-color);
+    color: var(--white-color);
     text-decoration: underline;
 }
 
 /* projects */
 .badge-item {
     background-color: var(--black-color);
-    color: var(--yellow-color);
+    color: var(--red-color);
     font-family: var(--secondary-font);
     text-transform: uppercase;
 }
@@ -357,14 +366,14 @@ body {
 
 .project-links a {
     text-decoration: none;
-    color: var(--black-color);
+    color: var(--red-color);
     font-family: var(--primary-font);
     text-transform: capitalize;
     font-size: 16px;
 }
 
 .project-links a:hover {
-    color: var(--litegreen-color);
+    color: var(--white-color);
     text-decoration: underline;
 }
 
@@ -375,8 +384,8 @@ body {
 }
 
 .view-all-projects a span {
-    background-color: var(--black-color);
-    color: var(--yellow-color);
+    background-color: var(--red-color);
+    color: var(--white-color);
     border-radius: 50px;
     font-family: var(--primary-font);
     font-size: 16px;
@@ -387,8 +396,8 @@ body {
 }
 
 .view-all-projects a span:hover {
-    background: var(--yellow-color);
-    color: var(--black-color);
+    background: var(--white-color);
+    color: var(--red-color);
 }
 
 /* contact */
@@ -398,16 +407,16 @@ body {
     font-size: 16px;
     font-family: var(--primary-font);
     font-weight: 500;
-    color: var(--black-color);
+    color: var(--white-color);
 }
 
 .mail-tel-link a {
     text-decoration: none;
-    color: var(--black-color);
+    color: var(--white-color);
 }
 
 .mail-tel-link a:hover {
-    color: var(--white-color);
+    color: var(--red-color);
     text-decoration: underline;
 }
 
@@ -418,13 +427,13 @@ body {
     justify-content: center;
     font-size: 24px;
     font-family: var(--secondary-font);
-    color: var(--black-color);
+    color: var(--white-color);
 }
 
 .form-control {
     border-radius: 10px;
     border: none;
-    background: var(--black-color);
+    background: var(--white-color);
     /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
 }
 
@@ -433,8 +442,8 @@ body {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: var(--black-color);
-    color: var(--yellow-color);
+    background: var(--white-color);
+    color: var(--red-color);
     font-family: var(--primary-font);
     font-size: 16px;
 }
@@ -445,20 +454,20 @@ body {
 }
 
 .form-group input {
-    color: var(--yellow-color);
+    color: var(--black-color);
     font-family: var(--primary-font);
     font-size: 16px;
 }
 
 .form-group textarea {
     height: 120px;
-    color: var(--yellow-color);
+    color: var(--black-color);
     font-family: var(--primary-font);
     font-size: 16px;
 }
 
 ::placeholder {
-    color: var(--yellow-color) !important;
+    color: var(--red-color) !important;
     font-family: var(--secondary-font);
     font-size: 16px;
 }
@@ -474,8 +483,8 @@ body {
     font-weight: 700;
     text-transform: capitalize;
     font-family: var(--primary-font);
-    color: var(--yellow-color);
-    background-color: var(--black-color);
+    color: var(--white-color);
+    background-color: var(--red-color);
     padding: 12px 50px;
     border-radius: 50px;
     border: none;
@@ -484,8 +493,8 @@ body {
 }
 
 .send-btn:hover {
-    color: var(--black-color);
-    background-color: var(--yellow-color);
+    color: var(--red-color);
+    background-color: var(--white-color);
     cursor: pointer;
 }
 
@@ -503,7 +512,7 @@ body {
     margin: 0;
     font-family: var(--primary-font);
     font-size: 30px;
-    color: var(--black-color);
+    color: var(--red-color);
     padding-bottom: 40px;
 }
 
@@ -518,12 +527,12 @@ body {
 .account-icons a {
     margin: 0 25px;
     font-size: 20px;
-    color: var(--black-color);
+    color: var(--white-color);
     transition: all 0.3s linear;
 }
 
 .account-icons a:hover {
-    color: var(--white-color);
+    color: var(--red-color);
     transform: scale(1.5);
 }
 
@@ -539,7 +548,7 @@ body {
     padding-bottom: 20px;
     font-size: 18px;
     font-family: var(--primary-font);
-    color: var(--black-color);
+    color: var(--white-color);
 }
 
 .footer-two {
@@ -553,7 +562,7 @@ body {
     margin: 0;
     padding-bottom: 20px;
     font-size: 16px;
-    color: var(--black-color);
+    color: var(--white-color);
     font-family: var(--secondary-font);
 }
 
