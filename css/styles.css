@@ -4,7 +4,8 @@
     --litegreen-color: #495E57;
     --black-color: #45474B; */
 
-    --red-color: #FD2E35;
+    /* --red-color: #FD2E35; */
+    --red-color: #FF0000;
     --white-color: #F5EDED;
     --lightwhite-color: #DFE2DB;
     --black-color: #000000;
@@ -45,12 +46,29 @@
 }
 
 body {
-    background-color: var(--black-color);
+    background: linear-gradient(300deg,#000000,#ff0000,#000000, #000000);
+    background-size: 240% 240%;
+    animation: gradient-animation 24s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* preloader */
 #content {
     display: none;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #loader {
@@ -108,7 +126,8 @@ body {
     float: right;
     cursor: pointer;
 }
-.sun-icon{
+
+.sun-icon {
     width: 60px;
     height: 60px;
 }
@@ -132,9 +151,10 @@ body {
     color: var(--white-color);
     text-transform: capitalize;
     padding-bottom: 20px;
+    text-shadow: 3px 1px 2px rgba(255, 0, 0, 1);
 }
 
-.my-name{
+.my-name {
     color: var(--red-color);
 }
 
@@ -143,7 +163,7 @@ body {
     font-family: var(--primary-font);
     font-size: 60px;
     font-weight: 500;
-    color: var(--white-color);
+    color: var(--red-color);
     text-transform: capitalize;
     padding-bottom: 10px;
 }
@@ -255,8 +275,10 @@ body {
     margin: 0;
     font-family: var(--primary-font);
     font-size: 60px;
-    color: var(--red-color);
+    color: var(--white-color);
     padding-bottom: 40px;
+    text-shadow: 3px 1px 2px rgba(255, 0, 0, 1);
+    letter-spacing: 2px;
 }
 
 /* about */
@@ -296,15 +318,57 @@ body {
     font-family: var(--secondary-font);
 }
 
-/* education */
-.card {
+/* education cards */
+.education-card {
     border-radius: 20px;
     border: none;
     margin-bottom: 20px;
-    background-color: var(--black-color);
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
-.card:hover {
+.education-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+/* skill cards */
+.skill-card {
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.skill-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+/* experience-card */
+.experience-card {
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    min-height: 260px;
+}
+
+.experience-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+/* project cards */
+.project-card {
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    min-height: 210px;
+}
+
+.project-card:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
@@ -354,7 +418,7 @@ body {
 /* projects */
 .badge-item {
     background-color: var(--black-color);
-    color: var(--red-color);
+    color: var(--white-color);
     font-family: var(--secondary-font);
     text-transform: uppercase;
 }
@@ -366,14 +430,14 @@ body {
 
 .project-links a {
     text-decoration: none;
-    color: var(--red-color);
+    color: var(--white-color);
     font-family: var(--primary-font);
     text-transform: capitalize;
     font-size: 16px;
 }
 
 .project-links a:hover {
-    color: var(--white-color);
+    color: var(--red-color);
     text-decoration: underline;
 }
 
@@ -508,11 +572,11 @@ body {
 }
 
 /* buy me a coffee */
-.buy-me-a-coffee{
+.buy-me-a-coffee {
     margin: 0;
     font-family: var(--primary-font);
     font-size: 30px;
-    color: var(--red-color);
+    color: var(--white-color);
     padding-bottom: 40px;
 }
 
