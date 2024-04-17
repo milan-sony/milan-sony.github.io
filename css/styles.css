@@ -17,14 +17,14 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--red-color);
+    background: var(--yellow-color);
     border-radius: 50px;
 }
 
 /* custom mouse select colour */
 ::selection {
-    background-color: var(--red-color);
-    color: var(--white-color);
+    background-color: var(--black-color);
+    color: var(--yellow-color);
 }
 
 body {
