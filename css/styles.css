@@ -27,11 +27,14 @@
     color: var(--yellow-color);
 }
 
+html {
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+}
+
 body {
     background: linear-gradient(300deg,#000000,#fff253,#000000, #000000);
     background-size: 240% 240%;
     animation: gradient-animation 24s ease infinite;
-    /* background-color: var(--black-color); */
 }
 
 @keyframes gradient-animation {
@@ -51,7 +54,7 @@ body {
 /* preloader */
 #content {
     display: none;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 1);
 }
 
 #loader {
@@ -107,7 +110,7 @@ body {
 /* day and night */
 .day-night {
     float: right;
-    cursor: pointer;
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
 .sun-icon {
@@ -183,7 +186,7 @@ body {
     outline: none;
     border-radius: 12px;
     transition-duration: 0.4s ease;
-    cursor: pointer;
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
     margin-right: 20px;
     border: none;
     text-decoration: none;
@@ -195,7 +198,7 @@ body {
     background: none;
     color: var(--yellow-color);
     border: 1px solid var(--yellow-color);
-    cursor: pointer;
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
 .contact-btn {
@@ -210,7 +213,7 @@ body {
     font-family: var(--primary-font);
     letter-spacing: 2px;
     transition-duration: 0.4s ease;
-    cursor: pointer;
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
     background: none;
     text-decoration: none;
     list-style-type: none;
@@ -221,7 +224,7 @@ body {
     border: none;
     color: var(--black-color);
     background-color: var(--yellow-color);
-    cursor: pointer;
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
 /* scroll btn */
@@ -240,7 +243,7 @@ body {
     align-items: center;
     font-size: 30px;
     color: var(--black-color);
-    cursor: pointer;
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
@@ -448,7 +451,7 @@ body {
     background: none;
     color: var(--yellow-color);
     border: 1px solid var(--yellow-color);
-    cursor: pointer;
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
 /* contact */
@@ -547,7 +550,7 @@ body {
     background: none;
     color: var(--yellow-color);
     border: 1px solid var(--yellow-color);
-    cursor: pointer;
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
 .contact-msg p {
@@ -556,7 +559,7 @@ body {
     font-family: var(--secondary-font);
     font-size: 18px;
     font-weight: 300;
-    color: var(--black-color) !important;
+    color: var(--white-color) !important;
 }
 
 /* buy me a coffee */
@@ -586,6 +589,7 @@ body {
 .account-icons a:hover {
     color: var(--yellow-color);
     transform: scale(1.5);
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
 .footer {
