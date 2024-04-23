@@ -188,7 +188,7 @@ body {
     transition-duration: 0.4s ease;
     cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
     margin-right: 20px;
-    border: none;
+    border: 1px solid var(--yellow-color);
     text-decoration: none;
     list-style-type: none;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -221,7 +221,8 @@ body {
 }
 
 .contact-btn:hover {
-    border: none;
+    outline: none;
+    border: 1px solid var(--yellow-color);
     color: var(--black-color);
     background-color: var(--yellow-color);
     cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
@@ -444,10 +445,13 @@ body {
     text-transform: capitalize;
     font-weight: 500;
     padding: 10px 20px;
+    outline: none;
+    border: 1px solid var(--yellow-color);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .view-all-projects a span:hover {
+    outline: none;
     background: none;
     color: var(--yellow-color);
     border: 1px solid var(--yellow-color);
@@ -541,12 +545,14 @@ body {
     background-color: var(--yellow-color);
     padding: 12px 50px;
     border-radius: 50px;
-    border: none;
+    outline: none;
+    border: 1px solid var(--yellow-color);
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .send-btn:hover {
+    outline: none;
     background: none;
     color: var(--yellow-color);
     border: 1px solid var(--yellow-color);
