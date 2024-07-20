@@ -1,7 +1,7 @@
 :root {
-    --yellow-color: #fff253 ;
-    --white-color: #ffffff ;
-    --black-color: #111111 ;
+    --yellow-color: #fff253;
+    --white-color: #ffffff;
+    --black-color: #111111;
 
     --primary-font: "Oswald", sans-serif;
     --secondary-font: "Roboto", sans-serif;
@@ -32,7 +32,7 @@ html {
 }
 
 body {
-    background: linear-gradient(300deg,#000000,#fff253,#000000, #000000);
+    background: linear-gradient(300deg, #000000, #fff253, #000000, #000000);
     background-size: 240% 240%;
     animation: gradient-animation 24s ease infinite;
 }
