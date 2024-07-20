@@ -1,7 +1,8 @@
 :root {
-    --yellow-color: #fff253;
+    --green-color: #6fbc29;
     --white-color: #ffffff;
-    --black-color: #111111;
+    --black-color: #000000;
+    --grey-color: #4a4a4a;
 
     --primary-font: "Oswald", sans-serif;
     --secondary-font: "Roboto", sans-serif;
@@ -32,27 +33,11 @@ html {
 }
 
 body {
-    background: linear-gradient(300deg, #000000, #fff253, #000000, #000000);
-    background-size: 240% 240%;
-    animation: gradient-animation 24s ease infinite;
-}
-
-@keyframes gradient-animation {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+    background-color: var(--white-color);
 }
 
 /* preloader */
-#content {
+/* #content {
     display: none;
     background-color: rgba(0, 0, 0, 1);
 }
@@ -75,47 +60,20 @@ body {
     font-size: 18px;
     text-transform: lowercase;
     font-weight: 500;
-}
+} */
 
 /* sections */
 #alert-msg {
     display: none;
 }
 
-#education {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-#about {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-#skills {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-#project {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
+#education,
+#about,
+#skills,
+#project,
 #contact {
     padding-top: 100px;
     padding-bottom: 100px;
-}
-
-/* day and night */
-.day-night {
-    float: right;
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
-}
-
-.sun-icon {
-    width: 60px;
-    height: 60px;
 }
 
 /* banner */
@@ -125,8 +83,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    /* align-items: center;
+    text-align: center; */
 }
 
 .banner-head1 {
@@ -134,10 +92,9 @@ body {
     font-family: var(--primary-font);
     font-size: 120px;
     font-weight: 900;
-    color: var(--yellow-color);
+    color: var(--green-color);
     text-transform: capitalize;
     padding-bottom: 20px;
-    text-shadow: 3px 1px 2px #fff253;
 }
 
 .banner-head2 {
@@ -145,13 +102,13 @@ body {
     font-family: var(--primary-font);
     font-size: 60px;
     font-weight: 500;
-    color: var(--white-color);
+    color: var(--black-color);
     text-transform: capitalize;
     padding-bottom: 10px;
 }
 
 .my-name {
-    color: var(--yellow-color);
+    color: var(--green-color);
 }
 
 .banner-head3 {
@@ -159,7 +116,7 @@ body {
     font-family: var(--primary-font);
     font-size: 30px;
     font-weight: 500;
-    color: var(--white-color);
+    color: var(--black-color);
     text-transform: capitalize;
     letter-spacing: 6px;
     padding-bottom: 20px;
@@ -171,14 +128,14 @@ body {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 2px;
-    color: var(--white-color);
+    color: var(--grey-color);
     padding-bottom: 40px;
 }
 
 .resume-btn {
     padding: 10px 20px;
-    background-color: var(--yellow-color);
-    color: var(--black-color);
+    background-color: var(--green-color);
+    color: var(--white-color);
     text-align: center;
     text-transform: capitalize;
     font-family: var(--primary-font);
@@ -188,7 +145,7 @@ body {
     transition-duration: 0.4s ease;
     cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
     margin-right: 20px;
-    border: 1px solid var(--yellow-color);
+    border: 1px solid var(--white-color);
     text-decoration: none;
     list-style-type: none;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -196,8 +153,8 @@ body {
 
 .resume-btn:hover {
     background: none;
-    color: var(--yellow-color);
-    border: 1px solid var(--yellow-color);
+    color: var(--green-color);
+    border: 1px solid var(--green-color);
     cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
@@ -205,9 +162,9 @@ body {
     padding: 10px 20px;
     outline: none;
     border: none;
-    border: 1px solid var(--yellow-color);
+    border: 1px solid var(--green-color);
     border-radius: 12px;
-    color: var(--white-color);
+    color: var(--green-color);
     text-align: center;
     text-transform: capitalize;
     font-family: var(--primary-font);
@@ -222,9 +179,9 @@ body {
 
 .contact-btn:hover {
     outline: none;
-    border: 1px solid var(--yellow-color);
-    color: var(--black-color);
-    background-color: var(--yellow-color);
+    border: 1px solid var(--green-color);
+    color: var(--white-color);
+    background-color: var(--green-color);
     cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
@@ -235,7 +192,7 @@ body {
 }
 
 .scroll-btn {
-    background-color: var(--yellow-color);
+    background-color: var(--green-color);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -243,15 +200,15 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    color: var(--black-color);
+    color: var(--white-color);
     cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .scroll-btn:hover {
-    background-color: var(--black-color);
-    color: var(--yellow-color);
+    background-color: var(--grey-color);
+    color: var(--green-color);
 }
 
 /* heading */
@@ -264,9 +221,8 @@ body {
     margin: 0;
     font-family: var(--primary-font);
     font-size: 60px;
-    color: var(--yellow-color);
+    color: var(--green-color);
     padding-bottom: 40px;
-    text-shadow: 3px 1px 2px #fff253;
     letter-spacing: 2px;
 }
 
@@ -280,14 +236,14 @@ body {
     font-family: var(--primary-font);
     font-size: 24px;
     padding-bottom: 20px;
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .sub-desc {
     font-family: var(--secondary-font);
     font-size: 16px;
     padding-bottom: 20px;
-    color: var(--white-color);
+    color: var(--grey-color);
 }
 
 .profile-img {
@@ -301,8 +257,8 @@ body {
 }
 
 .talk-about-badge {
-    background-color: var(--black-color);
-    color: var(--yellow-color);
+    background-color: var(--green-color);
+    color: var(--white-color);
     margin-right: 4px;
     font-family: var(--secondary-font);
 }
@@ -312,7 +268,6 @@ body {
     border-radius: 20px;
     border: none;
     margin-bottom: 20px;
-    /* background-color: rgba(0, 0, 0, 0.1); */
     padding: 20px;
 }
 
@@ -325,7 +280,6 @@ body {
     border-radius: 20px;
     border: none;
     margin-bottom: 20px;
-    /* background-color: rgba(0, 0, 0, 0.1); */
     padding: 20px;
 }
 
@@ -338,7 +292,6 @@ body {
     border-radius: 20px;
     border: none;
     margin-bottom: 20px;
-    /* background-color: rgba(0, 0, 0, 0.1); */
     padding: 20px;
     min-height: 260px;
 }
@@ -352,7 +305,6 @@ body {
     border-radius: 20px;
     border: none;
     margin-bottom: 20px;
-    /* background-color: rgba(0, 0, 0, 0.1); */
     padding: 20px;
     min-height: 210px;
 }
@@ -371,43 +323,43 @@ body {
 .card-title {
     font-family: var(--primary-font);
     font-size: 18px;
-    color: var(--white-color);
+    color: var(--black-color);
 }
 
 .card-subtitle {
     font-family: var(--primary-font);
     font-size: 24px;
-    color: var(--yellow-color);
+    color: var(--green-color);
 }
 
 .card-text {
     font-family: var(--secondary-font);
     font-size: 16px;
-    color: var(--white-color);
+    color: var(--grey-color);
 }
 
 .card-sub-text {
     font-weight: 500;
     font-family: var(--secondary-font);
     font-size: 16px;
-    color: var(--white-color);
+    color: var(--grey-color);
 }
 
 /* experience */
 .iedc-link {
-    color: var(--yellow-color);
+    color: var(--green-color);
     text-decoration: none;
 }
 
 .iedc-link:hover {
-    color: var(--white-color);
-    text-decoration: underline;
+    color: var(--grey-color);
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
 /* projects */
 .badge-item {
-    background-color: var(--black-color);
-    color: var(--yellow-color);
+    background-color: var(--green-color);
+    color: var(--white-color);
     font-family: var(--secondary-font);
     text-transform: uppercase;
 }
@@ -419,15 +371,15 @@ body {
 
 .project-links a {
     text-decoration: none;
-    color: var(--white-color);
+    color: var(--green-color);
     font-family: var(--primary-font);
     text-transform: capitalize;
     font-size: 16px;
 }
 
 .project-links a:hover {
-    color: var(--yellow-color);
-    text-decoration: underline;
+    color: var(--grey-color);
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
 .view-all-projects {
@@ -437,8 +389,8 @@ body {
 }
 
 .view-all-projects a span {
-    background-color: var(--yellow-color);
-    color: var(--black-color);
+    background-color: var(--green-color);
+    color: var(--white-color);
     border-radius: 50px;
     font-family: var(--primary-font);
     font-size: 16px;
@@ -446,15 +398,15 @@ body {
     font-weight: 500;
     padding: 10px 20px;
     outline: none;
-    border: 1px solid var(--yellow-color);
+    border: 1px solid var(--green-color);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .view-all-projects a span:hover {
     outline: none;
     background: none;
-    color: var(--yellow-color);
-    border: 1px solid var(--yellow-color);
+    color: var(--green-color);
+    border: 1px solid var(--green-color);
     cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
@@ -465,17 +417,17 @@ body {
     font-size: 16px;
     font-family: var(--primary-font);
     font-weight: 500;
-    color: var(--yellow-color);
+    color: var(--black-color);
 }
 
 .mail-tel-link a {
     text-decoration: none;
-    color: var(--yelllow-color);
+    color: var(--green-color);
 }
 
 .mail-tel-link a:hover {
-    color: var(--white-color);
-    text-decoration: underline;
+    color: var(--grey-color);
+    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
 .mail-text {
@@ -485,14 +437,13 @@ body {
     justify-content: center;
     font-size: 24px;
     font-family: var(--primary-font);
-    color: var(--yellow-color);
+    color: var(--green-color);
 }
 
 .form-control {
     border-radius: 10px;
     border: none;
-    background: var(--white-color);
-    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
+    background: var(--green-color);
 }
 
 .form-control:active,
@@ -500,8 +451,8 @@ body {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: var(--white-color);
-    color: var(--black-color);
+    background: var(--green-color);
+    color: var(--white-color);
     font-family: var(--primary-font);
     font-size: 16px;
 }
@@ -512,7 +463,7 @@ body {
 }
 
 .form-group input {
-    color: var(--black-color);
+    color: var(--white-color);
     font-family: var(--primary-font);
     font-size: 16px;
 }
@@ -525,7 +476,7 @@ body {
 }
 
 ::placeholder {
-    color: var(--black-color) !important;
+    color: var(--white-color) !important;
     font-family: var(--secondary-font);
     font-size: 16px;
 }
@@ -541,12 +492,12 @@ body {
     font-weight: 700;
     text-transform: capitalize;
     font-family: var(--primary-font);
-    color: var(--black-color);
-    background-color: var(--yellow-color);
+    color: var(--white-color);
+    background-color: var(--green-color);
     padding: 12px 50px;
     border-radius: 50px;
     outline: none;
-    border: 1px solid var(--yellow-color);
+    border: 1px solid var(--green-color);
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
@@ -554,8 +505,8 @@ body {
 .send-btn:hover {
     outline: none;
     background: none;
-    color: var(--yellow-color);
-    border: 1px solid var(--yellow-color);
+    color: var(--green-color);
+    border: 1px solid var(--green-color);
     cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
@@ -565,7 +516,7 @@ body {
     font-family: var(--secondary-font);
     font-size: 18px;
     font-weight: 300;
-    color: var(--white-color) !important;
+    color: var(--green-color) !important;
 }
 
 /* buy me a coffee */
@@ -573,7 +524,7 @@ body {
     margin: 0;
     font-family: var(--primary-font);
     font-size: 30px;
-    color: var(--yellow-color);
+    color: var(--green-color);
     padding-bottom: 40px;
 }
 
@@ -588,12 +539,12 @@ body {
 .account-icons a {
     margin: 0 25px;
     font-size: 20px;
-    color: var(--white-color);
+    color: var(--green-color);
     transition: all 0.3s linear;
 }
 
 .account-icons a:hover {
-    color: var(--yellow-color);
+    color: var(--grey-color);
     transform: scale(1.5);
     cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
@@ -610,7 +561,7 @@ body {
     padding-bottom: 20px;
     font-size: 18px;
     font-family: var(--primary-font);
-    color: var(--white-color);
+    color: var(--grey-color);
 }
 
 .footer-two {
@@ -624,7 +575,7 @@ body {
     margin: 0;
     padding-bottom: 20px;
     font-size: 16px;
-    color: var(--white-color);
+    color: var(--grey-color);
     font-family: var(--secondary-font);
 }
 
@@ -669,10 +620,6 @@ body {
 /* Custom Media Query */
 /* small devices */
 @media (max-width: 576px) {
-    .day-night {
-        font-size: 20px;
-    }
-
     .banner-head1 {
         font-size: 40px;
     }
