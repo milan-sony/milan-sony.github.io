@@ -14,18 +14,18 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--black-color);
+    background: var(--white-color);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--yellow-color);
+    background: var(--green-color);
     border-radius: 50px;
 }
 
 /* custom mouse select colour */
 ::selection {
     background-color: var(--black-color);
-    color: var(--yellow-color);
+    color: var(--green-color);
 }
 
 html {
@@ -37,9 +37,9 @@ body {
 }
 
 /* preloader */
-/* #content {
+#content {
     display: none;
-    background-color: rgba(0, 0, 0, 1);
+    /* background-color: rgba(0, 0, 0, 1); */
 }
 
 #loader {
@@ -60,7 +60,7 @@ body {
     font-size: 18px;
     text-transform: lowercase;
     font-weight: 500;
-} */
+}
 
 /* sections */
 #alert-msg {
@@ -185,6 +185,16 @@ body {
     cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
 }
 
+/* day/night */
+.day-night {
+    text-align: right;
+}
+
+.day-night img {
+    width: 50px;
+    height: 50px;
+}
+
 /* scroll btn */
 .scroll-to-top {
     display: flex;
@@ -215,6 +225,11 @@ body {
 .main-heading {
     display: flex;
     justify-content: flex-start;
+}
+
+.main-head-icon {
+    width: 100px;
+    height: 100px;
 }
 
 .head-title {
@@ -253,7 +268,7 @@ body {
 }
 
 .profile-img img {
-    height: 250px;
+    height: 150px;
 }
 
 .talk-about-badge {
@@ -620,6 +635,10 @@ body {
 /* Custom Media Query */
 /* small devices */
 @media (max-width: 576px) {
+    .main-head-icon{
+        width: 80px;
+        height: 80px;
+    }
     .banner-head1 {
         font-size: 40px;
     }
