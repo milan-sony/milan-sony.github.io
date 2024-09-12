@@ -6,6 +6,7 @@
 
     --primary-font: "Oswald", sans-serif;
     --secondary-font: "Roboto", sans-serif;
+    --tertiary-font: "Kalam", system-ui;
 }
 
 /* custom scrollbar */
@@ -248,10 +249,17 @@ body {
 
 .desc {
     margin: 0;
-    font-family: var(--primary-font);
+    font-family: var(--tertiary-font);
+    font-weight: 400;
     font-size: 24px;
     padding-bottom: 20px;
     color: var(--black-color);
+}
+.desc-text{
+    text-decoration: underline;
+    text-decoration-color: var(--green-color);
+    font-weight: 700;
+    text-decoration-thickness: 3px;
 }
 
 .sub-desc {
