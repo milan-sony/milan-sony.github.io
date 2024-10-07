@@ -1,8 +1,11 @@
 window.onload = function () {
-    // preloader
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("content").style.display = "block";
+    setTimeout(function() {
+        // preloader
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("content").style.display = "block";
+    }, 5000); // 3000 milliseconds = 3 seconds
 };
+
 
 // scroll to top btn
 let ScrollToTop = document.querySelector(".scroll-btn");

@@ -7,6 +7,8 @@
     --primary-font: "Oswald", sans-serif;
     --secondary-font: "Roboto", sans-serif;
     --tertiary-font: "Kalam", system-ui;
+
+    --cursor-icon: url("../assets/mouse-hand-cursor-color-icon.svg");
 }
 
 /* custom scrollbar */
@@ -30,7 +32,8 @@
 }
 
 html {
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+    cursor: var(--cursor-icon), auto;
+    /* cursor: var(--cursor-icon), auto; */
 }
 
 body {
@@ -144,7 +147,7 @@ body {
     outline: none;
     border-radius: 12px;
     transition-duration: 0.4s ease;
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+    cursor: var(--cursor-icon), auto;
     margin-right: 20px;
     border: 1px solid var(--white-color);
     text-decoration: none;
@@ -156,7 +159,7 @@ body {
     background: none;
     color: var(--green-color);
     border: 1px solid var(--green-color);
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+    cursor: var(--cursor-icon), auto;
 }
 
 .contact-btn {
@@ -171,7 +174,7 @@ body {
     font-family: var(--primary-font);
     letter-spacing: 2px;
     transition-duration: 0.4s ease;
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+    cursor: var(--cursor-icon), auto;
     background: none;
     text-decoration: none;
     list-style-type: none;
@@ -183,7 +186,7 @@ body {
     border: 1px solid var(--green-color);
     color: var(--white-color);
     background-color: var(--green-color);
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+    cursor: var(--cursor-icon), auto;
 }
 
 /* day/night */
@@ -212,7 +215,7 @@ body {
     align-items: center;
     font-size: 30px;
     color: var(--white-color);
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+    cursor: var(--cursor-icon), auto;
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
@@ -376,7 +379,7 @@ body {
 
 .iedc-link:hover {
     color: var(--grey-color);
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+    cursor: var(--cursor-icon), auto;
 }
 
 /* projects */
@@ -402,7 +405,7 @@ body {
 
 .project-links a:hover {
     color: var(--grey-color);
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+    cursor: var(--cursor-icon), auto;
 }
 
 .view-all-projects {
@@ -430,7 +433,7 @@ body {
     background: none;
     color: var(--green-color);
     border: 1px solid var(--green-color);
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+    cursor: var(--cursor-icon), auto;
 }
 
 /* contact */
@@ -450,7 +453,7 @@ body {
 
 .mail-tel-link a:hover {
     color: var(--grey-color);
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+    cursor: var(--cursor-icon), auto;
 }
 
 .mail-text {
@@ -530,7 +533,7 @@ body {
     background: none;
     color: var(--green-color);
     border: 1px solid var(--green-color);
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+    cursor: var(--cursor-icon), auto;
 }
 
 .contact-msg p {
@@ -569,7 +572,7 @@ body {
 .account-icons a:hover {
     color: var(--grey-color);
     transform: scale(1.5);
-    cursor: url("../assets/mouse-hand-cursor-color-icon.svg"), auto;
+    cursor: var(--cursor-icon), auto;
 }
 
 .footer {
