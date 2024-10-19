@@ -33,7 +33,6 @@
 
 html {
     cursor: var(--cursor-icon), auto;
-    /* cursor: var(--cursor-icon), auto; */
 }
 
 body {
@@ -43,7 +42,6 @@ body {
 /* preloader */
 #content {
     display: none;
-    /* background-color: rgba(0, 0, 0, 1); */
 }
 
 #loader {
@@ -87,8 +85,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center;
-    text-align: center; */
+    align-items: center;
+    text-align: center;
 }
 
 .banner-head1 {
@@ -149,7 +147,7 @@ body {
     transition-duration: 0.4s ease;
     cursor: var(--cursor-icon), auto;
     margin-right: 20px;
-    border: 1px solid var(--white-color);
+    border: 1px solid var(--green-color);
     text-decoration: none;
     list-style-type: none;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -187,16 +185,6 @@ body {
     color: var(--white-color);
     background-color: var(--green-color);
     cursor: var(--cursor-icon), auto;
-}
-
-/* day/night */
-.day-night {
-    text-align: right;
-}
-
-.day-night img {
-    width: 50px;
-    height: 50px;
 }
 
 /* scroll btn */
