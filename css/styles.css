@@ -11,10 +11,23 @@
     --cursor-icon: url("../assets/mouse-hand-cursor-color-icon.svg");
 }
 
-*, html {
+*,
+html {
     scrollbar-color: auto;
     scrollbar-color: var(--orange-color) var(--white-color);
     cursor: var(--cursor-icon), auto;
+}
+
+/* text selection color */
+::-moz-selection {
+    /* Code for Firefox */
+    color: var(--white-color);
+    background: var(--orange-color);
+}
+
+::selection {
+    color: var(--white-color);
+    background: var(--orange-color);
 }
 
 body {
@@ -61,13 +74,14 @@ body {
 }
 
 /* day night */
-.daynnight{
+.daynnight {
     margin: 0;
     display: flex;
     justify-content: end;
     align-items: end;
 }
-.daynnight img{
+
+.daynnight img {
     width: auto;
     height: 50px;
 }
@@ -108,7 +122,7 @@ body {
 }
 
 .my-name {
-    color: var(--white-color);
+    color: var(--orange-color);
 }
 
 .banner-head3 {
@@ -252,6 +266,11 @@ body {
     text-decoration-thickness: 3px;
 }
 
+.desc-text:hover {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+
 .sub-desc {
     font-family: var(--secondary-font);
     font-size: 16px;
@@ -282,16 +301,18 @@ body {
     font-family: var(--secondary-font);
     text-transform: uppercase;
     font-size: 16px;
-    font-weight:700;
+    font-weight: 700;
 }
 
 /* cards */
-.cards{
+.cards {
     border-radius: 20px;
-    border: 2px dashed var(--white-color);    margin-bottom: 20px;
+    border: 2px dashed var(--white-color);
+    margin-bottom: 20px;
     padding: 20px;
 }
-.cards:hover{
+
+.cards:hover {
     border: 2px dashed var(--orange-color);
 }
 
@@ -328,7 +349,8 @@ body {
     font-size: 16px;
     color: var(--grey-color);
 }
-.stacks{
+
+.stacks {
     margin: 0;
     padding-bottom: 20px;
     font-weight: 900;
@@ -358,7 +380,7 @@ body {
     font-family: var(--secondary-font);
     text-transform: uppercase;
     font-size: 12px;
-    font-weight:700;
+    font-weight: 700;
 }
 
 .project-links {
@@ -650,7 +672,8 @@ body {
     .head-title {
         font-size: 40px;
     }
-    .account-icons a{
+
+    .account-icons a {
         font-size: 20px;
     }
 
