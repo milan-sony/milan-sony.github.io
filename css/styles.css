@@ -303,6 +303,9 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
+.skill-items:hover{
+    color: var(--orange-color);
+}
 
 /* cards */
 .cards {
