@@ -1,5 +1,5 @@
 :root {
-    --red-color: #ff9064;
+    --orange-color: #ff9064;
     --white-color: #ffffff;
     --black-color: #000000;
     --grey-color: #4a4a4a;
@@ -13,7 +13,7 @@
 
 *, html {
     scrollbar-color: auto;
-    scrollbar-color: var(--red-color) var(--white-color);
+    scrollbar-color: var(--orange-color) var(--white-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -74,7 +74,7 @@ body {
 
 /* banner */
 /* .banner-background{
-    background-color: var(--red-color);
+    background-color: var(--orange-color);
 } */
 
 .banner-content {
@@ -92,7 +92,7 @@ body {
     font-family: var(--primary-font);
     font-size: 120px;
     font-weight: 900;
-    color: var(--red-color);
+    color: var(--orange-color);
     text-transform: capitalize;
     padding-bottom: 20px;
 }
@@ -134,7 +134,7 @@ body {
 
 .resume-btn {
     padding: 10px 20px;
-    background-color: var(--red-color);
+    background-color: var(--orange-color);
     color: var(--white-color);
     text-align: center;
     text-transform: capitalize;
@@ -145,7 +145,7 @@ body {
     transition-duration: 0.4s ease;
     cursor: var(--cursor-icon), auto;
     margin-right: 20px;
-    border: 1px solid var(--red-color);
+    border: 1px solid var(--orange-color);
     text-decoration: none;
     list-style-type: none;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -153,8 +153,8 @@ body {
 
 .resume-btn:hover {
     background: none;
-    color: var(--red-color);
-    border: 1px solid var(--red-color);
+    color: var(--orange-color);
+    border: 1px solid var(--orange-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -162,9 +162,9 @@ body {
     padding: 10px 20px;
     outline: none;
     border: none;
-    border: 1px solid var(--red-color);
+    border: 1px solid var(--orange-color);
     border-radius: 12px;
-    color: var(--red-color);
+    color: var(--orange-color);
     text-align: center;
     text-transform: capitalize;
     font-family: var(--primary-font);
@@ -179,9 +179,9 @@ body {
 
 .contact-btn:hover {
     outline: none;
-    border: 1px solid var(--red-color);
+    border: 1px solid var(--orange-color);
     color: var(--white-color);
-    background-color: var(--red-color);
+    background-color: var(--orange-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -192,7 +192,7 @@ body {
 }
 
 .scroll-btn {
-    background-color: var(--red-color);
+    background-color: var(--orange-color);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -208,7 +208,7 @@ body {
 
 .scroll-btn:hover {
     background-color: var(--grey-color);
-    color: var(--red-color);
+    color: var(--orange-color);
 }
 
 /* heading */
@@ -226,7 +226,7 @@ body {
     margin: 0;
     font-family: var(--primary-font);
     font-size: 60px;
-    color: var(--red-color);
+    color: var(--orange-color);
     padding-bottom: 40px;
     letter-spacing: 2px;
 }
@@ -247,7 +247,7 @@ body {
 
 .desc-text {
     text-decoration: underline;
-    text-decoration-color: var(--red-color);
+    text-decoration-color: var(--orange-color);
     font-weight: 700;
     text-decoration-thickness: 3px;
 }
@@ -270,7 +270,7 @@ body {
 }
 
 .talk-about-badge {
-    background-color: var(--red-color);
+    background-color: var(--orange-color);
     color: var(--white-color);
     margin-right: 4px;
     font-family: var(--secondary-font);
@@ -286,7 +286,7 @@ body {
 
 .education-card:hover {
     /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
-    border: 2px dashed var(--red-color);
+    border: 2px dashed var(--orange-color);
 }
 
 /* skill cards */
@@ -299,7 +299,7 @@ body {
 
 .skill-card:hover {
     /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
-    border: 2px dashed var(--red-color);
+    border: 2px dashed var(--orange-color);
 }
 
 /* experience-card */
@@ -313,7 +313,7 @@ body {
 
 .experience-card:hover {
     /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
-    border: 2px dashed var(--red-color);
+    border: 2px dashed var(--orange-color);
 }
 
 /* project cards */
@@ -327,7 +327,7 @@ body {
 
 .project-card:hover {
     /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
-    border: 2px dashed var(--red-color);
+    border: 2px dashed var(--orange-color);
 }
 
 .card-title,
@@ -346,7 +346,7 @@ body {
 .card-subtitle {
     font-family: var(--primary-font);
     font-size: 24px;
-    color: var(--red-color);
+    color: var(--orange-color);
 }
 
 .card-text {
@@ -364,7 +364,7 @@ body {
 
 /* experience */
 .iedc-link {
-    color: var(--red-color);
+    color: var(--orange-color);
     text-decoration: none;
 }
 
@@ -375,7 +375,7 @@ body {
 
 /* projects */
 .badge-item {
-    background-color: var(--red-color);
+    background-color: var(--orange-color);
     color: var(--white-color);
     font-family: var(--secondary-font);
     text-transform: uppercase;
@@ -388,7 +388,7 @@ body {
 
 .project-links a {
     text-decoration: none;
-    color: var(--red-color);
+    color: var(--orange-color);
     font-family: var(--primary-font);
     text-transform: capitalize;
     font-size: 16px;
@@ -406,7 +406,7 @@ body {
 }
 
 .view-all-projects a span {
-    background-color: var(--red-color);
+    background-color: var(--orange-color);
     color: var(--white-color);
     border-radius: 50px;
     font-family: var(--primary-font);
@@ -415,15 +415,15 @@ body {
     font-weight: 500;
     padding: 10px 20px;
     outline: none;
-    border: 1px solid var(--red-color);
+    border: 1px solid var(--orange-color);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .view-all-projects a span:hover {
     outline: none;
     background: none;
-    color: var(--red-color);
-    border: 1px solid var(--red-color);
+    color: var(--orange-color);
+    border: 1px solid var(--orange-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -439,7 +439,7 @@ body {
 
 .mail-tel-link a {
     text-decoration: none;
-    color: var(--red-color);
+    color: var(--orange-color);
 }
 
 .mail-tel-link a:hover {
@@ -454,13 +454,13 @@ body {
     justify-content: center;
     font-size: 24px;
     font-family: var(--primary-font);
-    color: var(--red-color);
+    color: var(--orange-color);
 }
 
 .form-control {
     border-radius: 10px;
     border: none;
-    background: var(--red-color);
+    background: var(--orange-color);
 }
 
 .form-control:active,
@@ -468,7 +468,7 @@ body {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: var(--red-color);
+    background: var(--orange-color);
     color: var(--white-color);
     font-family: var(--primary-font);
     font-size: 16px;
@@ -510,11 +510,11 @@ body {
     text-transform: capitalize;
     font-family: var(--primary-font);
     color: var(--white-color);
-    background-color: var(--red-color);
+    background-color: var(--orange-color);
     padding: 12px 50px;
     border-radius: 50px;
     outline: none;
-    border: 1px solid var(--red-color);
+    border: 1px solid var(--orange-color);
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
@@ -522,8 +522,8 @@ body {
 .send-btn:hover {
     outline: none;
     background: none;
-    color: var(--red-color);
-    border: 1px solid var(--red-color);
+    color: var(--orange-color);
+    border: 1px solid var(--orange-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -533,7 +533,7 @@ body {
     font-family: var(--secondary-font);
     font-size: 18px;
     font-weight: 300;
-    color: var(--red-color) !important;
+    color: var(--orange-color) !important;
 }
 
 /* buy me a coffee */
@@ -541,7 +541,7 @@ body {
     margin: 0;
     font-family: var(--primary-font);
     font-size: 30px;
-    color: var(--red-color);
+    color: var(--orange-color);
     padding-bottom: 40px;
 }
 
@@ -556,7 +556,7 @@ body {
 .account-icons a {
     margin: 0 25px;
     font-size: 28px;
-    color: var(--red-color);
+    color: var(--orange-color);
     transition: all 0.3s linear;
 }
 

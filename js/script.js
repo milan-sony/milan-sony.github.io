@@ -15,14 +15,22 @@ const icons = [
 let daynnighticon = document.getElementById('daynnighticon');
 let isDay = true;
 
+// root element
+const r = document.querySelector(':root');
+
 daynnighticon.addEventListener('click', ()=>{
 
     if(isDay == true){
-        daynnighticon.src = icons[0]
+        daynnighticon.src = icons[1]
+        r.style.setProperty('--black-color', '#ffffff');
+        r.style.setProperty('--white-color', '#000000');
+        r.style.setProperty('--grey-color', '#ffffff');
         isDay = false
     }else{
-        isDay = false
-        daynnighticon.src = icons[1]
+        daynnighticon.src = icons[0]
+        r.style.setProperty('--black-color', '#000000');
+        r.style.setProperty('--white-color', '#ffffff');
+        r.style.setProperty('--grey-color', '#4e4e4e');
         isDay = true;
     }
 
