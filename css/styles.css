@@ -375,6 +375,7 @@ body {
 .iedc-link {
     color: var(--orange-color);
     text-decoration: none;
+    font-size: 18px;
 }
 
 .iedc-link:hover {
