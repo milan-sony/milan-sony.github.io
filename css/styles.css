@@ -276,63 +276,29 @@ body {
     font-family: var(--secondary-font);
 }
 
-/* education cards */
-.education-card {
+/* skills */
+.skill-items {
+    color: var(--grey-color);
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight:700;
+}
+
+/* cards */
+.cards{
     border-radius: 20px;
-    border: none;
-    margin-bottom: 20px;
+    border: 2px dashed var(--white-color);    margin-bottom: 20px;
     padding: 20px;
 }
-
-.education-card:hover {
-    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
-    border: 2px dashed var(--orange-color);
-}
-
-/* skill cards */
-.skill-card {
-    border-radius: 20px;
-    border: none;
-    margin-bottom: 20px;
-    padding: 20px;
-}
-
-.skill-card:hover {
-    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
-    border: 2px dashed var(--orange-color);
-}
-
-/* experience-card */
-.experience-card {
-    border-radius: 20px;
-    border: none;
-    margin-bottom: 20px;
-    padding: 20px;
-    min-height: 260px;
-}
-
-.experience-card:hover {
-    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
-    border: 2px dashed var(--orange-color);
-}
-
-/* project cards */
-.project-card {
-    border-radius: 20px;
-    border: none;
-    margin-bottom: 20px;
-    padding: 20px;
-    min-height: 210px;
-}
-
-.project-card:hover {
-    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
+.cards:hover{
     border: 2px dashed var(--orange-color);
 }
 
 .card-title,
 .card-subtitle,
-.card-text {
+.card-text,
+.card-sub-text {
     margin: 0;
     padding-bottom: 10px;
 }
@@ -356,6 +322,7 @@ body {
 }
 
 .card-sub-text {
+    margin: 0;
     font-weight: 500;
     font-family: var(--secondary-font);
     font-size: 16px;
@@ -376,6 +343,8 @@ body {
     color: var(--orange-color);
     text-decoration: none;
     font-size: 18px;
+    font-family: var(--primary-font);
+    font-weight: 700;
 }
 
 .iedc-link:hover {
@@ -403,6 +372,7 @@ body {
     font-family: var(--primary-font);
     text-transform: capitalize;
     font-size: 16px;
+    font-weight: 700;
 }
 
 .project-links a:hover {
