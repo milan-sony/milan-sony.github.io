@@ -3,7 +3,7 @@ window.onload = function () {
         // preloader
         document.getElementById("loader").style.display = "none";
         document.getElementById("content").style.display = "block";
-    }, 1000); // 3000 milliseconds = 3 seconds
+    }, 5000); // 3000 milliseconds = 3 seconds
 };
 
 const icons = [

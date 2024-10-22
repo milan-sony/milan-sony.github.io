@@ -385,6 +385,9 @@ body {
     font-size: 12px;
     font-weight: 700;
 }
+.badge-item:hover{
+    color: var(--orange-color);
+}
 
 .project-links {
     display: flex;
