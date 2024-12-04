@@ -24,13 +24,13 @@ daynnighticon.addEventListener('click', ()=>{
         daynnighticon.src = icons[1]
         r.style.setProperty('--black-color', '#ffffff');
         r.style.setProperty('--white-color', '#000000');
-        r.style.setProperty('--grey-color', '#ffffff');
+        r.style.setProperty('--lite-black', '#ffffff');
         isDay = false
     }else{
         daynnighticon.src = icons[0]
         r.style.setProperty('--black-color', '#000000');
         r.style.setProperty('--white-color', '#ffffff');
-        r.style.setProperty('--grey-color', '#4e4e4e');
+        r.style.setProperty('--lite-black', '#393E46');
         isDay = true;
     }
 

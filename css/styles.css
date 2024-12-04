@@ -1,8 +1,8 @@
 :root {
-    --orange-color: #ff9064;
-    --white-color: #ffffff;
     --black-color: #000000;
-    --grey-color: #4a4a4a;
+    --lite-black: #393E46;
+    --white-color: #ffffff;
+    --red-color: #EE2B47;
 
     --primary-font: "Oswald", sans-serif;
     --secondary-font: "Roboto", sans-serif;
@@ -14,7 +14,7 @@
 *,
 html {
     scrollbar-color: auto;
-    scrollbar-color: var(--orange-color) var(--white-color);
+    scrollbar-color: var(--black-color) var(--white-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -22,12 +22,12 @@ html {
 ::-moz-selection {
     /* Code for Firefox */
     color: var(--white-color);
-    background: var(--orange-color);
+    background: var(--black-color);
 }
 
 ::selection {
     color: var(--white-color);
-    background: var(--orange-color);
+    background: var(--black-color);
 }
 
 body {
@@ -106,7 +106,7 @@ body {
     font-family: var(--primary-font);
     font-size: 120px;
     font-weight: 900;
-    color: var(--orange-color);
+    color: var(--black-color);
     text-transform: capitalize;
     padding-bottom: 20px;
 }
@@ -122,7 +122,7 @@ body {
 }
 
 .my-name {
-    color: var(--orange-color);
+    color: var(--red-color);
 }
 
 .banner-head3 {
@@ -130,7 +130,7 @@ body {
     font-family: var(--primary-font);
     font-size: 30px;
     font-weight: 500;
-    color: var(--black-color);
+    color: var(--lite-black);
     text-transform: capitalize;
     letter-spacing: 6px;
     padding-bottom: 20px;
@@ -142,13 +142,13 @@ body {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 2px;
-    color: var(--grey-color);
+    color: var(--lite-black);
     padding-bottom: 40px;
 }
 
 .resume-btn {
     padding: 10px 20px;
-    background-color: var(--orange-color);
+    background-color: var(--black-color);
     color: var(--white-color);
     text-align: center;
     text-transform: capitalize;
@@ -159,7 +159,7 @@ body {
     transition-duration: 0.4s ease;
     cursor: var(--cursor-icon), auto;
     margin-right: 20px;
-    border: 1px solid var(--orange-color);
+    border: 1px solid var(--black-color);
     text-decoration: none;
     list-style-type: none;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -167,8 +167,8 @@ body {
 
 .resume-btn:hover {
     background: none;
-    color: var(--orange-color);
-    border: 1px solid var(--orange-color);
+    color: var(--black-color);
+    border: 1px solid var(--black-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -176,9 +176,9 @@ body {
     padding: 10px 20px;
     outline: none;
     border: none;
-    border: 1px solid var(--orange-color);
+    border: 1px solid var(--black-color);
     border-radius: 12px;
-    color: var(--orange-color);
+    color: var(--black-color);
     text-align: center;
     text-transform: capitalize;
     font-family: var(--primary-font);
@@ -193,9 +193,9 @@ body {
 
 .contact-btn:hover {
     outline: none;
-    border: 1px solid var(--orange-color);
+    border: 1px solid var(--black-color);
     color: var(--white-color);
-    background-color: var(--orange-color);
+    background-color: var(--black-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -206,7 +206,7 @@ body {
 }
 
 .scroll-btn {
-    background-color: var(--orange-color);
+    background-color: var(--black-color);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -221,8 +221,8 @@ body {
 }
 
 .scroll-btn:hover {
-    background-color: var(--grey-color);
-    color: var(--orange-color);
+    background-color: var(--red-color);
+    color: var(--white-color);
 }
 
 /* heading */
@@ -240,7 +240,7 @@ body {
     margin: 0;
     font-family: var(--primary-font);
     font-size: 60px;
-    color: var(--orange-color);
+    color: var(--black-color);
     padding-bottom: 40px;
     letter-spacing: 2px;
 }
@@ -256,26 +256,27 @@ body {
     font-weight: 400;
     font-size: 24px;
     padding-bottom: 20px;
-    color: var(--black-color);
+    color: var(--lite-black);
 }
 
 .desc-text {
     text-decoration: underline;
-    text-decoration-color: var(--orange-color);
+    text-decoration-color: var(--red-color);
     font-weight: 700;
     text-decoration-thickness: 3px;
 }
 
-.desc-text:hover {
-    background-color: var(--orange-color);
+/* .desc-text:hover {
+    background-color: var(--red-color);
+    text-decoration-color: var(--white-color);
     color: var(--white-color);
-}
+} */
 
 .sub-desc {
     font-family: var(--secondary-font);
     font-size: 16px;
     padding-bottom: 20px;
-    color: var(--grey-color);
+    color: var(--lite-black);
 }
 
 .profile-img {
@@ -288,23 +289,16 @@ body {
     height: 150px;
 }
 
-.talk-about-badge {
-    background-color: var(--orange-color);
-    color: var(--white-color);
-    margin-right: 4px;
-    font-family: var(--secondary-font);
-}
-
 /* skills */
 .skill-items {
-    color: var(--grey-color);
+    color: var(--lite-black);
     font-family: var(--secondary-font);
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
 }
 .skill-items:hover{
-    color: var(--orange-color);
+    color: var(--red-color);
 }
 
 /* cards */
@@ -316,7 +310,7 @@ body {
 }
 
 .cards:hover {
-    border: 2px dashed var(--orange-color);
+    border: 2px dashed var(--white-color);
 }
 
 .card-title,
@@ -330,19 +324,19 @@ body {
 .card-title {
     font-family: var(--primary-font);
     font-size: 18px;
-    color: var(--black-color);
+    color: var(--red-color);
 }
 
 .card-subtitle {
     font-family: var(--primary-font);
     font-size: 24px;
-    color: var(--orange-color);
+    color: var(--black-color);
 }
 
 .card-text {
     font-family: var(--secondary-font);
     font-size: 16px;
-    color: var(--grey-color);
+    color: var(--lite-black);
 }
 
 .card-sub-text {
@@ -350,7 +344,7 @@ body {
     font-weight: 500;
     font-family: var(--secondary-font);
     font-size: 16px;
-    color: var(--grey-color);
+    color: var(--lite-black);
 }
 
 .stacks {
@@ -359,13 +353,13 @@ body {
     font-weight: 900;
     font-family: var(--primary-font);
     font-size: 14px;
-    color: var(--orange-color);
+    color: var(--lite-black);
     text-transform: uppercase;
 }
 
 /* experience */
 .iedc-link {
-    color: var(--orange-color);
+    color: var(--black-color);
     text-decoration: none;
     font-size: 18px;
     font-family: var(--primary-font);
@@ -373,20 +367,20 @@ body {
 }
 
 .iedc-link:hover {
-    color: var(--grey-color);
+    color: var(--red-color);
     cursor: var(--cursor-icon), auto;
 }
 
 /* projects */
 .badge-item {
-    color: var(--grey-color);
+    color: var(--red-color);
     font-family: var(--secondary-font);
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
 }
 .badge-item:hover{
-    color: var(--orange-color);
+    color: var(--black-color);
 }
 
 .project-links {
@@ -396,7 +390,7 @@ body {
 
 .project-links a {
     text-decoration: none;
-    color: var(--orange-color);
+    color: var(--black-color);
     font-family: var(--primary-font);
     text-transform: capitalize;
     font-size: 16px;
@@ -404,7 +398,7 @@ body {
 }
 
 .project-links a:hover {
-    color: var(--grey-color);
+    color: var(--red-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -415,7 +409,7 @@ body {
 }
 
 .view-all-projects a span {
-    background-color: var(--orange-color);
+    background-color: var(--black-color);
     color: var(--white-color);
     border-radius: 50px;
     font-family: var(--primary-font);
@@ -424,15 +418,15 @@ body {
     font-weight: 500;
     padding: 10px 20px;
     outline: none;
-    border: 1px solid var(--orange-color);
+    border: 1px solid var(--black-color);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .view-all-projects a span:hover {
     outline: none;
     background: none;
-    color: var(--orange-color);
-    border: 1px solid var(--orange-color);
+    color: var(--black-color);
+    border: 1px solid var(--black-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -448,11 +442,11 @@ body {
 
 .mail-tel-link a {
     text-decoration: none;
-    color: var(--orange-color);
+    color: var(--black-color);
 }
 
 .mail-tel-link a:hover {
-    color: var(--grey-color);
+    color: var(--red-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -463,13 +457,13 @@ body {
     justify-content: center;
     font-size: 24px;
     font-family: var(--primary-font);
-    color: var(--orange-color);
+    color: var(--black-color);
 }
 
 .form-control {
     border-radius: 10px;
     border: none;
-    background: var(--orange-color);
+    background: var(--black-color);
 }
 
 .form-control:active,
@@ -477,7 +471,7 @@ body {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: var(--orange-color);
+    background: var(--black-color);
     color: var(--white-color);
     font-family: var(--primary-font);
     font-size: 16px;
@@ -496,7 +490,7 @@ body {
 
 .form-group textarea {
     height: 120px;
-    color: var(--black-color);
+    color: var(--white-color);
     font-family: var(--primary-font);
     font-size: 16px;
 }
@@ -519,11 +513,11 @@ body {
     text-transform: capitalize;
     font-family: var(--primary-font);
     color: var(--white-color);
-    background-color: var(--orange-color);
+    background-color: var(--black-color);
     padding: 12px 50px;
     border-radius: 50px;
     outline: none;
-    border: 1px solid var(--orange-color);
+    border: 1px solid var(--black-color);
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
@@ -531,8 +525,8 @@ body {
 .send-btn:hover {
     outline: none;
     background: none;
-    color: var(--orange-color);
-    border: 1px solid var(--orange-color);
+    color: var(--black-color);
+    border: 1px solid var(--black-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -542,7 +536,7 @@ body {
     font-family: var(--secondary-font);
     font-size: 18px;
     font-weight: 300;
-    color: var(--orange-color) !important;
+    color: var(--black-color) !important;
 }
 
 /* buy me a coffee */
@@ -550,7 +544,7 @@ body {
     margin: 0;
     font-family: var(--primary-font);
     font-size: 30px;
-    color: var(--orange-color);
+    color: var(--black-color);
     padding-bottom: 40px;
 }
 
@@ -565,12 +559,12 @@ body {
 .account-icons a {
     margin: 0 25px;
     font-size: 28px;
-    color: var(--orange-color);
+    color: var(--black-color);
     transition: all 0.3s linear;
 }
 
 .account-icons a:hover {
-    color: var(--grey-color);
+    color: var(--red-color);
     transform: scale(1.5);
     cursor: var(--cursor-icon), auto;
 }
@@ -587,7 +581,7 @@ body {
     padding-bottom: 20px;
     font-size: 18px;
     font-family: var(--primary-font);
-    color: var(--grey-color);
+    color: var(--lite-black);
 }
 
 .footer-two {
@@ -601,7 +595,7 @@ body {
     margin: 0;
     padding-bottom: 20px;
     font-size: 16px;
-    color: var(--grey-color);
+    color: var(--lite-black);
     font-family: var(--secondary-font);
 }
 
