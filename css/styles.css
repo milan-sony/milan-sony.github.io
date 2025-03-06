@@ -2,7 +2,7 @@
     --black-color: #000000;
     --lite-black: #393E46;
     --white-color: #ffffff;
-    --red-color: #EE2B47;
+    --purple-color: #7C86FF ;
 
     --primary-font: "Oswald", sans-serif;
     --secondary-font: "Roboto", sans-serif;
@@ -14,7 +14,7 @@
 *,
 html {
     scrollbar-color: auto;
-    scrollbar-color: var(--black-color) var(--white-color);
+    scrollbar-color: var(--purple-color) var(--white-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -22,12 +22,12 @@ html {
 ::-moz-selection {
     /* Code for Firefox */
     color: var(--white-color);
-    background: var(--black-color);
+    background: var(--purple-color);
 }
 
 ::selection {
     color: var(--white-color);
-    background: var(--black-color);
+    background: var(--purple-color);
 }
 
 body {
@@ -106,7 +106,7 @@ body {
     font-family: var(--primary-font);
     font-size: 120px;
     font-weight: 900;
-    color: var(--black-color);
+    color: var(--purple-color);
     text-transform: capitalize;
     padding-bottom: 20px;
 }
@@ -122,7 +122,7 @@ body {
 }
 
 .my-name {
-    color: var(--red-color);
+    color: var(--purple-color);
 }
 
 .banner-head3 {
@@ -221,7 +221,7 @@ body {
 }
 
 .scroll-btn:hover {
-    background-color: var(--red-color);
+    background-color: var(--purple-color);
     color: var(--white-color);
 }
 
@@ -261,13 +261,13 @@ body {
 
 .desc-text {
     text-decoration: underline;
-    text-decoration-color: var(--red-color);
+    text-decoration-color: var(--purple-color);
     font-weight: 700;
     text-decoration-thickness: 3px;
 }
 
 /* .desc-text:hover {
-    background-color: var(--red-color);
+    background-color: var(--purple-color);
     text-decoration-color: var(--white-color);
     color: var(--white-color);
 } */
@@ -298,7 +298,7 @@ body {
     font-weight: 700;
 }
 .skill-items:hover{
-    color: var(--red-color);
+    color: var(--purple-color);
 }
 
 /* cards */
@@ -324,13 +324,13 @@ body {
 .card-title {
     font-family: var(--primary-font);
     font-size: 18px;
-    color: var(--red-color);
+    color: var(--purple-color);
 }
 
 .card-subtitle {
     font-family: var(--primary-font);
     font-size: 24px;
-    color: var(--black-color);
+    color: var(--purple-color);
 }
 
 .card-text {
@@ -367,13 +367,13 @@ body {
 }
 
 .iedc-link:hover {
-    color: var(--red-color);
+    color: var(--purple-color);
     cursor: var(--cursor-icon), auto;
 }
 
 /* projects */
 .badge-item {
-    color: var(--red-color);
+    color: var(--purple-color);
     font-family: var(--secondary-font);
     text-transform: uppercase;
     font-size: 12px;
@@ -398,7 +398,7 @@ body {
 }
 
 .project-links a:hover {
-    color: var(--red-color);
+    color: var(--purple-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -446,7 +446,7 @@ body {
 }
 
 .mail-tel-link a:hover {
-    color: var(--red-color);
+    color: var(--purple-color);
     cursor: var(--cursor-icon), auto;
 }
 
@@ -564,7 +564,7 @@ body {
 }
 
 .account-icons a:hover {
-    color: var(--red-color);
+    color: var(--purple-color);
     transform: scale(1.5);
     cursor: var(--cursor-icon), auto;
 }
