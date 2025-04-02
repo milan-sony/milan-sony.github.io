@@ -250,6 +250,14 @@ body {
     margin: 0;
 }
 
+.india {
+    color: #FF661F;
+    background-image: linear-gradient(90deg, #FF661F 50%, #FFFFFF 0%, #046B39 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .desc {
     margin: 0;
     font-family: var(--tertiary-font);
