@@ -2,7 +2,7 @@
     --black-color: #000000;
     --lite-black: #393E46;
     --white-color: #ffffff;
-    --purple-color: #7C86FF ;
+    --purple-color: #7C86FF;
 
     --primary-font: "Oswald", sans-serif;
     --secondary-font: "Roboto", sans-serif;
@@ -256,6 +256,7 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 700;
 }
 
 .desc {
@@ -305,7 +306,8 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
-.skill-items:hover{
+
+.skill-items:hover {
     color: var(--purple-color);
 }
 
@@ -387,7 +389,8 @@ body {
     font-size: 12px;
     font-weight: 700;
 }
-.badge-item:hover{
+
+.badge-item:hover {
     color: var(--black-color);
 }
 
